@@ -164,8 +164,6 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://d-jiao.github.io/" target="_blank">★</a>
 <a href="https://cbuelt.github.io/" target="_blank">★</a>
 <a href="https://mehrdad-noori.github.io/" target="_blank">★</a>
-<a href="https://arthurclerjon.github.io/" target="_blank">★</a>
-<a href="https://eilamshapira.com/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -180,7 +178,6 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://inbt.jhu.edu/epidiagnostics/" target="_blank">★</a>
 <a href="https://www.nuesl.org/" target="_blank">★</a>
 <a href="https://big-culture.github.io/" target="_blank">★</a>
-<a href="https://martinbulla.github.io/bullab/" target="_blank">★</a>  
 <a href="https://gpforesteyes.github.io/" target="_blank">★</a>
 </td>
 </tr>

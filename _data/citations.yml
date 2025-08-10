@@ -1,0 +1,119 @@
+metadata:
+  last_updated: '2025-08-10 22:00:07'
+papers:
+  -9_KI-wAAAAJ:rLGzs9wiiwIC:
+    title: 'Spatio-temporal graph neural networks for predictive learning in urban
+      computing: A survey'
+    year: '2023'
+    citations: 379
+  -9_KI-wAAAAJ:wyM6WWKXmoIC:
+    title: 'Spatial-temporal identity: A simple yet effective baseline for multivariate
+      time series forecasting'
+    year: '2022'
+    citations: 344
+  -9_KI-wAAAAJ:H7nrzBkawXsC:
+    title: Pre-training enhanced spatial-temporal graph neural network for multivariate
+      time series forecasting
+    year: '2022'
+    citations: 327
+  -9_KI-wAAAAJ:RMgMIBzvq-4C:
+    title: Decoupled dynamic spatial-temporal graph neural network for traffic forecasting
+    year: '2022'
+    citations: 327
+  -9_KI-wAAAAJ:TesyEGJKHF4C:
+    title: 'Artificial intelligence for geoscience: Progress, challenges, and perspectives'
+    year: '2024'
+    citations: 245
+  -9_KI-wAAAAJ:aEW5N-EHWIMC:
+    title: 'Exploring progress in multivariate time series forecasting: Comprehensive
+      benchmarking and heterogeneity analysis'
+    year: '2024'
+    citations: 139
+  -9_KI-wAAAAJ:9shLKfS_uJEC:
+    title: 'Dsformer: A double sampling transformer for multivariate time series long-term
+      prediction'
+    year: '2023'
+    citations: 119
+  -9_KI-wAAAAJ:PlWzFYVEG4EC:
+    title: 'Ginar: An end-to-end multivariate time series forecasting model suitable
+      for variable missing'
+    year: '2024'
+    citations: 37
+  -9_KI-wAAAAJ:rOcdG6UcVlcC:
+    title: Heterogeneous graph neural network with multi-view representation learning
+    year: '2022'
+    citations: 33
+  -9_KI-wAAAAJ:I8rxH6phXEkC:
+    title: 'Mgsfformer: A multi-granularity spatiotemporal fusion transformer for
+      air quality prediction'
+    year: '2025'
+    citations: 30
+  -9_KI-wAAAAJ:Y0-TYkg6YM4C:
+    title: 'Basicts: An open source fair multivariate time series prediction benchmark'
+    year: '2022'
+    citations: 20
+  -9_KI-wAAAAJ:In6cVmBjs0IC:
+    title: Dynamic frequency domain graph convolutional network for traffic forecasting
+    year: '2024'
+    citations: 16
+  -9_KI-wAAAAJ:yeL6HyUMUGUC:
+    title: Trajectory-user link with attention recurrent networks
+    year: '2021'
+    citations: 16
+  -9_KI-wAAAAJ:natZJ_-F0IUC:
+    title: 'Efficient large-scale traffic forecasting with transformers: A spatial
+      data management perspective'
+    year: '2025'
+    citations: 12
+  -9_KI-wAAAAJ:YPNY0knpFBYC:
+    title: Multi-featured spatial-temporal and dynamic multi-graph convolutional network
+      for metro passenger flow prediction
+    year: '2022'
+    citations: 12
+  -9_KI-wAAAAJ:3_LpOwP6eMYC:
+    title: 'Foundation models and intelligent decision-making: Progress, challenges,
+      and perspectives'
+    year: '2025'
+    citations: 9
+  -9_KI-wAAAAJ:KTwcwpFFj4wC:
+    title: 'Clustering-property matters: A cluster-aware network for large scale multivariate
+      time series forecasting'
+    year: '2023'
+    citations: 7
+  -9_KI-wAAAAJ:yTLRzDEmwhEC:
+    title: 'Hutformer: Hierarchical u-net transformer for long-term traffic forecasting'
+    year: '2023'
+    citations: 7
+  -9_KI-wAAAAJ:xGWFX6Gbr9MC:
+    title: 'GinAR+: A Robust End-To-End Framework for Multivariate Time Series Forecasting
+      with Missing Values'
+    year: '2025'
+    citations: 6
+  -9_KI-wAAAAJ:bVQMTfhMCi4C:
+    title: 'Spatial-temporal large models: A super hub linking multiple scientific
+      areas with artificial intelligence'
+    year: '2025'
+    citations: 5
+  -9_KI-wAAAAJ:8dzOF9BpDQoC:
+    title: Trajectory-user linking via multi-scale graph attention network
+    year: '2025'
+    citations: 4
+  -9_KI-wAAAAJ:BJrgspguQaEC:
+    title: 'Merlin: Multi-View Representation Learning for Robust Multivariate Time
+      Series Forecasting with Unfixed Missing Rates'
+    year: '2025'
+    citations: 2
+  -9_KI-wAAAAJ:NMlhSUseqAsC:
+    title: 'LightWeather: Harnessing Absolute Positional Encoding to Efficient and
+      Scalable Global Weather Forecasting'
+    year: '2024'
+    citations: 2
+  -9_KI-wAAAAJ:ZqE1mSdD_DYC:
+    title: 'BLAST: Balanced Sampling Time Series Corpus for Universal Forecasting
+      Models'
+    year: '2025'
+    citations: 0
+  -9_KI-wAAAAJ:tz746QTLzJkC:
+    title: 'BasicTS: An Open Source Fair'
+    year: '2023'
+    citations: 0
