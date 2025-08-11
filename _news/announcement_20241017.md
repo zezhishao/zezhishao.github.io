@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-PatchSTG is accepted by <b>SIGKDD</b>!:sparkles: 
+PatchSTG is accepted by <b>KDD</b>!:sparkles: 
