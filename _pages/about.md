@@ -30,15 +30,17 @@ I have published over 20 papers in top-tier journals (e.g., *The Innovation*, *T
 
 Beyond academic research, I am also passionate about open-source software. My GitHub projects have received over 2.7K stars in total, and I am the maintainer of the widely used time series project [BasicTS](https://github.com/GestaltCogTeam/BasicTS).
 
-<font color=red>I am actively seeking visiting students (bachelor, master, or Ph.D.) on time series analysis and AI4Science. Both remote and onsite visiting are welcome. If you are interested, feel free to reach out!</font>
-
-His research interests mainly lie in:
+<!-- My research interests mainly lie in:
 
 - **Time Series Analysis**: foundation models, forecasting in critical scenarios, high-efficiency model architecture.
 - **Spatio-Temporal (ST) Data Mining**: ST foundation models, ST data synthesis, fair and scalable benchmark for ST models.
 - **AI for Science**: ST datamining in Urban Science, Atmospheric Science, Ocean Science, Marine Science.
 
-His academic services include：
+My academic services include：
 
 - **Conference PC Member**: ICLR, ICML, NeurIPS, KDD, WWW, AAAI, IJCAI, CIKM, ...
 - **Journal Reviewer**: IEEE TPAMI, IEEE TKDD, IEEE TKDE, The Innovation, PR, KBS, NN, ...
+ -->
+
+<font color=red>I am actively seeking visiting students (bachelor, master, or Ph.D.) on time series analysis and AI4Science. Both remote and onsite visiting are welcome. If you are interested, feel free to reach out!</font>
+
