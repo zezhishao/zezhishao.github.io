@@ -42,8 +42,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-patchstg-is-accepted-by-sigkdd-sparkles",
-          title: 'PatchSTG is accepted by SIGKDD!:sparkles:',
+            },},{id: "news-patchstg-is-accepted-by-kdd-sparkles",
+          title: 'PatchSTG is accepted by KDD!:sparkles:',
           description: "",
           section: "News",},{id: "news-basicts-is-accepted-by-tkde-sparkles",
           title: 'BasicTS+ is accepted by TKDE!:sparkles:',
