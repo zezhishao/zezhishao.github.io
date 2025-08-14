@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Assistant Professor @ GestaltCog Lab<br><a href="https://www.ict.ac.cn/">Institute of Computing Technology, Chinese Academy of Sciences</a>.
+subtitle: Assistant Professor @ <a href="https://www.ict.ac.cn/">Institute of Computing Technology, Chinese Academy of Sciences</a>.
 
 profile:
   align: right
