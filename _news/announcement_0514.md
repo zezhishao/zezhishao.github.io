@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-HUTFormer is accepted by <b>COMMTR</b> (IF: 14.5)!:sparkles:
+[HUTFormer](https://arxiv.org/abs/2307.14596) is accepted by <b>COMMTR</b> (IF: 14.5)!:sparkles:
