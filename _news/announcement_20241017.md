@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-PatchSTG is accepted by <b>KDD</b>!:sparkles: 
+[PatchSTG](https://dl.acm.org/doi/abs/10.1145/3690624.3709177) is accepted by <b>KDD</b>!:sparkles: 
