@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers, BLAST and Merlin, are accepted by <b>KDD</b>!:sparkles: 
+Two papers, [BLAST](https://dl.acm.org/doi/abs/10.1145/3711896.3736860) and [Merlin](https://dl.acm.org/doi/abs/10.1145/3711896.3737046), are accepted by <b>KDD</b>!:sparkles: 
