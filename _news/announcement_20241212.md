@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One commentary about Spatial-Temporal Large Models for Science is accepted by <b>The Innovation</b> (IF: 25.7)!:sparkles: 
+One commentary about [Spatial-Temporal Large Models](https://www.cell.com/the-innovation/fulltext/S2666-6758(24)00201-7) for Science is accepted by <b>The Innovation</b> (IF: 25.7)!:sparkles: 
