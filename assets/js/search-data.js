@@ -78,7 +78,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_0715/";
-            },},{id: "projects-project-1",
+            },},{id: "news-sta-gann-is-accepted-by-cikm-sparkles",
+          title: 'STA-GANN is accepted by CIKM!:sparkles:',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
