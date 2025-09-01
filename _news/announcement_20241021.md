@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-BasicTS+ is accepted by <b>TKDE</b>!:sparkles: 
+[BasicTS+](https://ieeexplore.ieee.org/abstract/document/10726722/) is accepted by <b>TKDE</b>!:sparkles: 
