@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-GinAR+ is accepted by <b>TKDE</b>!:sparkles: 
+[GinAR+](https://ieeexplore.ieee.org/abstract/document/11002729/) is accepted by <b>TKDE</b>!:sparkles: 
