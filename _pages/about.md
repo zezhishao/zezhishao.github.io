@@ -28,7 +28,7 @@ I am currently an Assistant Professor at the Institute of Computing Technology, 
 
 I have published over 20 papers in top-tier journals (e.g., *The Innovation*, *TKDE*) and conferences (e.g., *VLDB*, *KDD*, *CIKM*). My work has been cited more than 2000 times according to Google Scholar. Notably, four of my papers—STEP, GinAR, STID, and DSFormer—were recognized as the most influential papers by *PaperDigest*, and two of my papers have been featured as Highly Cited Papers in ESI. I have served as a Program Committee (PC) member and reviewer for prestigious conferences and journals, including *TPAMI*, *KDD*, *TKDE*, *NeurIPS*, *ICML*, *ICLR*, *IJCAI*, *MM*, *AAAI*, and others.
 
-Beyond academic research, I am also passionate about open-source software. My GitHub projects have received over 2.7K stars in total, and I am the maintainer of the widely used time series project [BasicTS](https://github.com/GestaltCogTeam/BasicTS).
+Beyond academic research, I am also passionate about open-source software. My GitHub projects have received over 2.7K stars in total, and I am the maintainer of the widely used time series project **[BasicTS](https://github.com/GestaltCogTeam/BasicTS)**.
 
 <!-- My research interests mainly lie in:
 
@@ -41,6 +41,3 @@ My academic services include：
 - **Conference PC Member**: ICLR, ICML, NeurIPS, KDD, WWW, AAAI, IJCAI, CIKM, ...
 - **Journal Reviewer**: IEEE TPAMI, IEEE TKDD, IEEE TKDE, The Innovation, PR, KBS, NN, ...
  -->
-
-<font color=red>I am actively seeking visiting students (bachelor, master, or Ph.D.) on time series analysis and AI4Science. Both remote and onsite visiting are welcome. If you are interested, feel free to reach out!</font>
-
