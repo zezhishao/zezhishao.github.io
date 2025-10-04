@@ -42,8 +42,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-patchstg-is-accepted-by-kdd-sparkles",
-          title: 'PatchSTG is accepted by KDD!:sparkles:',
+            },},{id: "news-patchstg-is-accepted-by-kdd-25-sparkles",
+          title: 'PatchSTG is accepted by KDD’25!:sparkles:',
           description: "",
           section: "News",},{id: "news-basicts-is-accepted-by-tkde-sparkles",
           title: 'BasicTS+ is accepted by TKDE!:sparkles:',
@@ -65,8 +65,8 @@ ninja.data = [{
             },},{id: "news-hutformer-is-accepted-by-commtr-if-14-5-sparkles",
           title: 'HUTFormer is accepted by COMMTR (IF: 14.5)!:sparkles:',
           description: "",
-          section: "News",},{id: "news-two-papers-blast-and-merlin-are-accepted-by-kdd-sparkles",
-          title: 'Two papers, BLAST and Merlin, are accepted by KDD!:sparkles:',
+          section: "News",},{id: "news-two-papers-blast-and-merlin-are-accepted-by-kdd-25-sparkles",
+          title: 'Two papers, BLAST and Merlin, are accepted by KDD’25!:sparkles:',
           description: "",
           section: "News",},{id: "news-one-tutorial-about-mts-heterogeneity-has-been-accepted-by-sstd-2025",
           title: 'One Tutorial about MTS heterogeneity has been Accepted by SSTD 2025！',
@@ -78,8 +78,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_0715/";
-            },},{id: "news-sta-gann-is-accepted-by-cikm-sparkles",
-          title: 'STA-GANN is accepted by CIKM!:sparkles:',
+            },},{id: "news-sta-gann-is-accepted-by-cikm-25-sparkles",
+          title: 'STA-GANN is accepted by CIKM’25!:sparkles:',
+          description: "",
+          section: "News",},{id: "news-three-papers-selective-learning-stella-and-smartraj2-are-accepted-by-neurips-25-sparkles",
+          title: 'Three papers, Selective Learning, STELLA, and SMARTraj2, are accepted by NeurIPS’25!:sparkles:',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
