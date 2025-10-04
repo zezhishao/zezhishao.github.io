@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[STA-GANN](https://arxiv.org/pdf/2508.16161) is accepted by <b>CIKM</b>!:sparkles: 
+[STA-GANN](https://arxiv.org/pdf/2508.16161) is accepted by <b>CIKM'25</b>!:sparkles: 
