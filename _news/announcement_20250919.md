@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Three papers, Selective Learning, STELLA, and SMARTraj2, are accepted by <b>NeurIPS'25</b>!:sparkles:
+Three papers, [Selective Learning](https://arxiv.org/pdf/2510.25207), [STELLA](https://openreview.net/pdf?id=thHhKPlt8q), and [SMARTraj2](https://openreview.net/pdf?id=JkVQmaE5pK), are accepted by <b>NeurIPS'25</b>!:sparkles:
