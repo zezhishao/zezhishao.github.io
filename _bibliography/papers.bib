@@ -32,23 +32,6 @@ abbr={SSTD},
 pdf={2025_SSTD_Heterogeneity_in_MTS.pdf},
 }
 
-@inproceedings{fu2025selective,
-title={Selective Learning for Deep Time Series Forecasting},
-booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
-year={2025},
-url={https://openreview.net/forum?id=kgzRy6nD6D},
-bibtex_show={true},
-abbr={NeurIPS},
-author={Fu, Yisong and Shao, Zezhi and Yu, Chengqing and Li, Yujie and An, Zhulin and Wang, Cheems and Xu, Yongjun and Wang, Fei},
-doi={https://doi.org/10.48550/arXiv.2510.25207},
-abstract={Benefiting from high capacity for capturing complex temporal patterns, deep learning (DL) has significantly advanced time series forecasting (TSF). However, deep models tend to suffer from severe overfitting due to the inherent vulnerability of time series to noise and anomalies. The prevailing DL paradigm uniformly optimizes all timesteps through the MSE loss and learns those uncertain and anomalous timesteps without difference, ultimately resulting in overfitting. To address this, we propose a novel selective learning strategy for deep TSF. Specifically, selective learning screens a subset of the whole timesteps to calculate the MSE loss in optimization, guiding the model to focus on generalizable timesteps while disregarding non-generalizable ones. Our framework introduces a dual-mask mechanism to target timesteps: (1) an uncertainty mask leveraging residual entropy to filter uncertain timesteps, and (2) an anomaly mask employing residual lower bound estimation to exclude anomalous timesteps. Extensive experiments across eight real-world datasets demonstrate that selective learning can significantly improve the predictive performance for typical state-of-the-art deep models, including 37.4% MSE reduction for Informer, 8.4% for TimesNet, and 6.5% for iTransformer.},
-google_scholar_id={vxVQT5kDUaMC},
-doi={https://doi.org/10.48550/arXiv.2510.25207},
-pdf={2025_NeurIPS_Selective_Learning.pdf},
-selected={true},
-code={https://github.com/GestaltCogTeam/selective-learning}
-}
-
 @inproceedings{10.1145/3534678.3539396,
   bibtex_show={true},
   abbr={KDD},
@@ -460,4 +443,21 @@ abstract = {Traffic forecasting, which aims to predict traffic conditions based 
 google_scholar_id={rq4rw-O2q6QC},
 pdf={2025_CommTR_HUTFormer.pdf},
 selected={true}
+}
+
+@inproceedings{fu2025selective,
+title={Selective Learning for Deep Time Series Forecasting},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=kgzRy6nD6D},
+bibtex_show={true},
+abbr={NeurIPS},
+author={Fu, Yisong and Shao, Zezhi and Yu, Chengqing and Li, Yujie and An, Zhulin and Wang, Cheems and Xu, Yongjun and Wang, Fei},
+doi={https://doi.org/10.48550/arXiv.2510.25207},
+abstract={Benefiting from high capacity for capturing complex temporal patterns, deep learning (DL) has significantly advanced time series forecasting (TSF). However, deep models tend to suffer from severe overfitting due to the inherent vulnerability of time series to noise and anomalies. The prevailing DL paradigm uniformly optimizes all timesteps through the MSE loss and learns those uncertain and anomalous timesteps without difference, ultimately resulting in overfitting. To address this, we propose a novel selective learning strategy for deep TSF. Specifically, selective learning screens a subset of the whole timesteps to calculate the MSE loss in optimization, guiding the model to focus on generalizable timesteps while disregarding non-generalizable ones. Our framework introduces a dual-mask mechanism to target timesteps: (1) an uncertainty mask leveraging residual entropy to filter uncertain timesteps, and (2) an anomaly mask employing residual lower bound estimation to exclude anomalous timesteps. Extensive experiments across eight real-world datasets demonstrate that selective learning can significantly improve the predictive performance for typical state-of-the-art deep models, including 37.4% MSE reduction for Informer, 8.4% for TimesNet, and 6.5% for iTransformer.},
+google_scholar_id={vxVQT5kDUaMC},
+doi={https://doi.org/10.48550/arXiv.2510.25207},
+pdf={2025_NeurIPS_Selective_Learning.pdf},
+selected={true},
+code={https://github.com/GestaltCogTeam/selective-learning}
 }
