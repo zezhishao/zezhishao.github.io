@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-APT is accepted by <b>AAAI'25</b>!:sparkles:
+[APT](https://www.arxiv.org/abs/2511.12945) is accepted by <b>AAAI'25</b>!:sparkles:
