@@ -1,39 +1,39 @@
 metadata:
-  last_updated: '2025-11-24 09:47:49'
+  last_updated: '2025-11-27 22:16:38'
 papers:
   -9_KI-wAAAAJ:3utUx_xxzcoC:
     title: 'Spatio-temporal graph neural networks for predictive learning in urban
       computing: A survey'
     year: '2023'
-    citations: 484
+    citations: 488
   -9_KI-wAAAAJ:IK5eWejHrvwC:
     title: 'Spatial-temporal identity: A simple yet effective baseline for multivariate
       time series forecasting'
     year: '2022'
-    citations: 417
+    citations: 418
   -9_KI-wAAAAJ:-Iwc2SO-hmoC:
     title: Decoupled dynamic spatial-temporal graph neural network for traffic forecasting
     year: '2022'
-    citations: 399
+    citations: 402
   -9_KI-wAAAAJ:QBXC_7Xd1GUC:
     title: Pre-training enhanced spatial-temporal graph neural network for multivariate
       time series forecasting
     year: '2022'
-    citations: 382
+    citations: 383
   -9_KI-wAAAAJ:BN2gBF5gczIC:
     title: 'Artificial intelligence for geoscience: Progress, challenges, and perspectives'
     year: '2024'
-    citations: 307
+    citations: 310
   -9_KI-wAAAAJ:QBSR9U3j2CEC:
     title: 'Exploring progress in multivariate time series forecasting: Comprehensive
       benchmarking and heterogeneity analysis'
     year: '2024'
-    citations: 199
+    citations: 200
   -9_KI-wAAAAJ:lxZgYf9FOvoC:
     title: 'Dsformer: A double sampling transformer for multivariate time series long-term
       prediction'
     year: '2023'
-    citations: 162
+    citations: 163
   -9_KI-wAAAAJ:ypg3kOuG8gIC:
     title: 'Mgsfformer: A multi-granularity spatiotemporal fusion transformer for
       air quality prediction'
@@ -52,7 +52,7 @@ papers:
     title: 'Efficient large-scale traffic forecasting with transformers: A spatial
       data management perspective'
     year: '2025'
-    citations: 33
+    citations: 34
   -9_KI-wAAAAJ:5jwsdJSnGWIC:
     title: 'Foundation models and intelligent decision-making: Progress, challenges,
       and perspectives'
@@ -84,20 +84,20 @@ papers:
       for metro passenger flow prediction
     year: '2022'
     citations: 12
-  -9_KI-wAAAAJ:Lyl8M50Wyb0C:
-    title: 'Clustering-property matters: A cluster-aware network for large scale multivariate
-      time series forecasting'
-    year: '2023'
-    citations: 10
   -9_KI-wAAAAJ:8Z0Dsp3hPRYC:
     title: 'Blast: Balanced sampling time series corpus for universal forecasting
       models'
     year: '2025'
-    citations: 10
+    citations: 11
   -9_KI-wAAAAJ:Q5bjhRmoBfUC:
     title: 'Spatial-temporal large models: A super hub linking multiple scientific
       areas with artificial intelligence'
     year: '2025'
+    citations: 10
+  -9_KI-wAAAAJ:Lyl8M50Wyb0C:
+    title: 'Clustering-property matters: A cluster-aware network for large scale multivariate
+      time series forecasting'
+    year: '2023'
     citations: 10
   -9_KI-wAAAAJ:8v7czoltWYsC:
     title: Trajectory-user linking via multi-scale graph attention network
@@ -113,6 +113,10 @@ papers:
       Scalable Global Weather Forecasting'
     year: '2024'
     citations: 3
+  -9_KI-wAAAAJ:FIkAGs9z2eEC:
+    title: 'Sta-gann: A valid and generalizable spatio-temporal kriging approach'
+    year: '2025'
+    citations: 2
   -9_KI-wAAAAJ:vxVQT5kDUaMC:
     title: Selective Learning for Deep Time Series Forecasting
     year: '2025'
@@ -122,14 +126,15 @@ papers:
       Forecasting'
     year: '2025'
     citations: 1
+  -9_KI-wAAAAJ:mNm_27jwclsC:
+    title: 'APT: Affine Prototype-Timestamp For Time Series Forecasting Under Distribution
+      Shift'
+    year: '2025'
+    citations: 0
   -9_KI-wAAAAJ:gDB6RRZydyMC:
     title: 'Heterogeneity in Multivariate Time Series: Comprehensive Analysis and
       Adaptive Modeling'
     year: '2025'
-    citations: 0
-  -9_KI-wAAAAJ:bUkhZ_yRbTwC:
-    title: 'BasicTS: An Open Source Fair'
-    year: '2023'
     citations: 0
   -9_KI-wAAAAJ:41b8sTJFDYwC:
     title: 'On the Integration of Spatial-Temporal Knowledge: A Lightweight Approach
@@ -140,13 +145,4 @@ papers:
     title: 'SMARTraj: A Stable Multi-City Adaptive Method for Multi-View Spatio-Temporal
       Trajectory Representation Learning'
     year: Unknown Year
-    citations: 0
-  -9_KI-wAAAAJ:FIkAGs9z2eEC:
-    title: 'Sta-gann: A valid and generalizable spatio-temporal kriging approach'
-    year: '2025'
-    citations: 2
-  -9_KI-wAAAAJ:mNm_27jwclsC:
-    title: 'APT: Affine Prototype-Timestamp For Time Series Forecasting Under Distribution
-      Shift'
-    year: '2025'
     citations: 0
