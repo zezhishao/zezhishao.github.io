@@ -1,44 +1,44 @@
 metadata:
-  last_updated: '2025-12-20 19:59:17'
+  last_updated: '2026-01-14 16:11:26'
 papers:
   -9_KI-wAAAAJ:3utUx_xxzcoC:
     title: 'Spatio-temporal graph neural networks for predictive learning in urban
       computing: A survey'
     year: '2023'
-    citations: 508
+    citations: 539
   -9_KI-wAAAAJ:IK5eWejHrvwC:
     title: 'Spatial-temporal identity: A simple yet effective baseline for multivariate
       time series forecasting'
     year: '2022'
-    citations: 429
+    citations: 444
   -9_KI-wAAAAJ:-Iwc2SO-hmoC:
     title: Decoupled dynamic spatial-temporal graph neural network for traffic forecasting
     year: '2022'
-    citations: 410
+    citations: 421
   -9_KI-wAAAAJ:QBXC_7Xd1GUC:
     title: Pre-training enhanced spatial-temporal graph neural network for multivariate
       time series forecasting
     year: '2022'
-    citations: 396
+    citations: 405
   -9_KI-wAAAAJ:BN2gBF5gczIC:
     title: 'Artificial intelligence for geoscience: Progress, challenges, and perspectives'
     year: '2024'
-    citations: 323
-  -9_KI-wAAAAJ:QBSR9U3j2CEC:
+    citations: 340
+  -9_KI-wAAAAJ:Kr09a2QcR50C:
     title: 'Exploring progress in multivariate time series forecasting: Comprehensive
       benchmarking and heterogeneity analysis'
     year: '2024'
-    citations: 211
+    citations: 218
   -9_KI-wAAAAJ:lxZgYf9FOvoC:
     title: 'Dsformer: A double sampling transformer for multivariate time series long-term
       prediction'
     year: '2023'
-    citations: 169
+    citations: 171
   -9_KI-wAAAAJ:ypg3kOuG8gIC:
     title: 'Mgsfformer: A multi-granularity spatiotemporal fusion transformer for
       air quality prediction'
     year: '2025'
-    citations: 63
+    citations: 64
   -9_KI-wAAAAJ:clk6yq2jaZ8C:
     title: 'Ginar: An end-to-end multivariate time series forecasting model suitable
       for variable missing'
@@ -52,20 +52,20 @@ papers:
     title: 'Efficient large-scale traffic forecasting with transformers: A spatial
       data management perspective'
     year: '2025'
-    citations: 37
+    citations: 41
   -9_KI-wAAAAJ:5jwsdJSnGWIC:
     title: 'Foundation models and intelligent decision-making: Progress, challenges,
       and perspectives'
     year: '2025'
-    citations: 37
-  -9_KI-wAAAAJ:cNepPnSnVCgC:
+    citations: 48
+  -9_KI-wAAAAJ:zIozKTkozWIC:
     title: 'Basicts: An open source fair multivariate time series prediction benchmark'
     year: '2022'
-    citations: 29
+    citations: 30
   -9_KI-wAAAAJ:u76CbRzuV8AC:
     title: Dynamic frequency domain graph convolutional network for traffic forecasting
     year: '2024'
-    citations: 30
+    citations: 31
   -9_KI-wAAAAJ:zGnLiCkldm4C:
     title: 'GinAR+: A Robust End-To-End Framework for Multivariate Time Series Forecasting
       with Missing Values'
@@ -74,16 +74,16 @@ papers:
   -9_KI-wAAAAJ:1KpZK2B-YNUC:
     title: Trajectory-user link with attention recurrent networks
     year: '2021'
-    citations: 18
+    citations: 19
   -9_KI-wAAAAJ:rq4rw-O2q6QC:
     title: 'Hutformer: Hierarchical u-net transformer for long-term traffic forecasting'
     year: '2025'
-    citations: 13
+    citations: 14
   -9_KI-wAAAAJ:gToihe7qpOEC:
     title: Multi-featured spatial-temporal and dynamic multi-graph convolutional network
       for metro passenger flow prediction
     year: '2022'
-    citations: 12
+    citations: 13
   -9_KI-wAAAAJ:8Z0Dsp3hPRYC:
     title: 'Blast: Balanced sampling time series corpus for universal forecasting
       models'
@@ -102,7 +102,7 @@ papers:
   -9_KI-wAAAAJ:8v7czoltWYsC:
     title: Trajectory-user linking via multi-scale graph attention network
     year: '2025'
-    citations: 8
+    citations: 9
   -9_KI-wAAAAJ:co-xmOEWlm8C:
     title: 'Merlin: Multi-View Representation Learning for Robust Multivariate Time
       Series Forecasting with Unfixed Missing Rates'
@@ -142,7 +142,7 @@ papers:
     year: Unknown Year
     citations: 0
   -9_KI-wAAAAJ:Kmip3zU-C7YC:
-    title: 'SMARTraj: A Stable Multi-City Adaptive Method for Multi-View Spatio-Temporal
+    title: 'SMARTraj2: A Stable Multi-City Adaptive Method for Multi-View Spatio-Temporal
       Trajectory Representation Learning'
     year: Unknown Year
     citations: 0
