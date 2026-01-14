@@ -73,8 +73,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_0709/";
-            },},{id: "news-one-tkde-paper-about-mts-heterogeneity-has-entered-esi-high-cited-papers",
-          title: 'One TKDE paper about MTS heterogeneity has entered ESI high cited papers!',
+            },},{id: "news-one-tkde-paper-about-mts-heterogeneity-has-entered-esi-hot-papers",
+          title: 'One TKDE paper about MTS heterogeneity has entered ESI Hot Papers!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_0715/";
@@ -87,7 +87,12 @@ ninja.data = [{
           section: "News",},{id: "news-apt-is-accepted-by-aaai-25-sparkles",
           title: 'APT is accepted by AAAI’25!:sparkles:',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-one-pvldb-paper-about-traffic-prediction-has-entered-esi-high-cited-papers",
+          title: 'One PVLDB paper about traffic prediction has entered ESI high cited papers!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_20260114/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
