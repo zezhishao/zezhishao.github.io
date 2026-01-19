@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-01-14 16:11:26'
+  last_updated: '2026-01-19 10:37:58'
 papers:
   -9_KI-wAAAAJ:3utUx_xxzcoC:
     title: 'Spatio-temporal graph neural networks for predictive learning in urban
       computing: A survey'
     year: '2023'
-    citations: 539
+    citations: 543
   -9_KI-wAAAAJ:IK5eWejHrvwC:
     title: 'Spatial-temporal identity: A simple yet effective baseline for multivariate
       time series forecasting'
     year: '2022'
-    citations: 444
+    citations: 449
   -9_KI-wAAAAJ:-Iwc2SO-hmoC:
     title: Decoupled dynamic spatial-temporal graph neural network for traffic forecasting
     year: '2022'
@@ -19,21 +19,21 @@ papers:
     title: Pre-training enhanced spatial-temporal graph neural network for multivariate
       time series forecasting
     year: '2022'
-    citations: 405
+    citations: 406
   -9_KI-wAAAAJ:BN2gBF5gczIC:
     title: 'Artificial intelligence for geoscience: Progress, challenges, and perspectives'
     year: '2024'
-    citations: 340
+    citations: 345
   -9_KI-wAAAAJ:Kr09a2QcR50C:
     title: 'Exploring progress in multivariate time series forecasting: Comprehensive
       benchmarking and heterogeneity analysis'
     year: '2024'
-    citations: 218
+    citations: 220
   -9_KI-wAAAAJ:lxZgYf9FOvoC:
     title: 'Dsformer: A double sampling transformer for multivariate time series long-term
       prediction'
     year: '2023'
-    citations: 171
+    citations: 172
   -9_KI-wAAAAJ:ypg3kOuG8gIC:
     title: 'Mgsfformer: A multi-granularity spatiotemporal fusion transformer for
       air quality prediction'
@@ -47,17 +47,17 @@ papers:
   -9_KI-wAAAAJ:VaBbNeojGYwC:
     title: Heterogeneous graph neural network with multi-view representation learning
     year: '2022'
-    citations: 39
+    citations: 40
   -9_KI-wAAAAJ:K6kyChav4UkC:
     title: 'Efficient large-scale traffic forecasting with transformers: A spatial
       data management perspective'
     year: '2025'
-    citations: 41
+    citations: 42
   -9_KI-wAAAAJ:5jwsdJSnGWIC:
     title: 'Foundation models and intelligent decision-making: Progress, challenges,
       and perspectives'
     year: '2025'
-    citations: 48
+    citations: 49
   -9_KI-wAAAAJ:zIozKTkozWIC:
     title: 'Basicts: An open source fair multivariate time series prediction benchmark'
     year: '2022'
@@ -78,7 +78,7 @@ papers:
   -9_KI-wAAAAJ:rq4rw-O2q6QC:
     title: 'Hutformer: Hierarchical u-net transformer for long-term traffic forecasting'
     year: '2025'
-    citations: 14
+    citations: 15
   -9_KI-wAAAAJ:gToihe7qpOEC:
     title: Multi-featured spatial-temporal and dynamic multi-graph convolutional network
       for metro passenger flow prediction
@@ -102,7 +102,7 @@ papers:
   -9_KI-wAAAAJ:8v7czoltWYsC:
     title: Trajectory-user linking via multi-scale graph attention network
     year: '2025'
-    citations: 9
+    citations: 10
   -9_KI-wAAAAJ:co-xmOEWlm8C:
     title: 'Merlin: Multi-View Representation Learning for Robust Multivariate Time
       Series Forecasting with Unfixed Missing Rates'
