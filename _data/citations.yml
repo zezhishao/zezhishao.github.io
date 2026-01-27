@@ -1,76 +1,76 @@
 metadata:
-  last_updated: '2026-01-19 10:37:58'
+  last_updated: '2026-01-27 21:46:39'
 papers:
   -9_KI-wAAAAJ:3utUx_xxzcoC:
     title: 'Spatio-temporal graph neural networks for predictive learning in urban
       computing: A survey'
     year: '2023'
-    citations: 543
+    citations: 575
   -9_KI-wAAAAJ:IK5eWejHrvwC:
     title: 'Spatial-temporal identity: A simple yet effective baseline for multivariate
       time series forecasting'
     year: '2022'
-    citations: 449
+    citations: 468
   -9_KI-wAAAAJ:-Iwc2SO-hmoC:
     title: Decoupled dynamic spatial-temporal graph neural network for traffic forecasting
     year: '2022'
-    citations: 421
+    citations: 434
   -9_KI-wAAAAJ:QBXC_7Xd1GUC:
     title: Pre-training enhanced spatial-temporal graph neural network for multivariate
       time series forecasting
     year: '2022'
-    citations: 406
+    citations: 415
   -9_KI-wAAAAJ:BN2gBF5gczIC:
     title: 'Artificial intelligence for geoscience: Progress, challenges, and perspectives'
     year: '2024'
-    citations: 345
+    citations: 359
   -9_KI-wAAAAJ:Kr09a2QcR50C:
     title: 'Exploring progress in multivariate time series forecasting: Comprehensive
       benchmarking and heterogeneity analysis'
     year: '2024'
-    citations: 220
+    citations: 233
   -9_KI-wAAAAJ:lxZgYf9FOvoC:
     title: 'Dsformer: A double sampling transformer for multivariate time series long-term
       prediction'
     year: '2023'
-    citations: 172
+    citations: 175
   -9_KI-wAAAAJ:ypg3kOuG8gIC:
     title: 'Mgsfformer: A multi-granularity spatiotemporal fusion transformer for
       air quality prediction'
     year: '2025'
-    citations: 64
+    citations: 66
   -9_KI-wAAAAJ:clk6yq2jaZ8C:
     title: 'Ginar: An end-to-end multivariate time series forecasting model suitable
       for variable missing'
     year: '2024'
-    citations: 57
+    citations: 60
   -9_KI-wAAAAJ:VaBbNeojGYwC:
     title: Heterogeneous graph neural network with multi-view representation learning
     year: '2022'
-    citations: 40
+    citations: 41
   -9_KI-wAAAAJ:K6kyChav4UkC:
     title: 'Efficient large-scale traffic forecasting with transformers: A spatial
       data management perspective'
     year: '2025'
-    citations: 42
+    citations: 46
   -9_KI-wAAAAJ:5jwsdJSnGWIC:
     title: 'Foundation models and intelligent decision-making: Progress, challenges,
       and perspectives'
     year: '2025'
-    citations: 49
+    citations: 54
   -9_KI-wAAAAJ:zIozKTkozWIC:
     title: 'Basicts: An open source fair multivariate time series prediction benchmark'
     year: '2022'
-    citations: 30
+    citations: 33
   -9_KI-wAAAAJ:u76CbRzuV8AC:
     title: Dynamic frequency domain graph convolutional network for traffic forecasting
     year: '2024'
-    citations: 31
+    citations: 32
   -9_KI-wAAAAJ:zGnLiCkldm4C:
     title: 'GinAR+: A Robust End-To-End Framework for Multivariate Time Series Forecasting
       with Missing Values'
     year: '2025'
-    citations: 21
+    citations: 24
   -9_KI-wAAAAJ:1KpZK2B-YNUC:
     title: Trajectory-user link with attention recurrent networks
     year: '2021'
@@ -78,7 +78,7 @@ papers:
   -9_KI-wAAAAJ:rq4rw-O2q6QC:
     title: 'Hutformer: Hierarchical u-net transformer for long-term traffic forecasting'
     year: '2025'
-    citations: 15
+    citations: 16
   -9_KI-wAAAAJ:gToihe7qpOEC:
     title: Multi-featured spatial-temporal and dynamic multi-graph convolutional network
       for metro passenger flow prediction
@@ -88,7 +88,7 @@ papers:
     title: 'Blast: Balanced sampling time series corpus for universal forecasting
       models'
     year: '2025'
-    citations: 14
+    citations: 16
   -9_KI-wAAAAJ:Q5bjhRmoBfUC:
     title: 'Spatial-temporal large models: A super hub linking multiple scientific
       areas with artificial intelligence'
@@ -107,7 +107,7 @@ papers:
     title: 'Merlin: Multi-View Representation Learning for Robust Multivariate Time
       Series Forecasting with Unfixed Missing Rates'
     year: '2025'
-    citations: 5
+    citations: 6
   -9_KI-wAAAAJ:4JjQL45tqTYC:
     title: 'LightWeather: Harnessing Absolute Positional Encoding to Efficient and
       Scalable Global Weather Forecasting'
@@ -122,10 +122,10 @@ papers:
     year: '2025'
     citations: 2
   -9_KI-wAAAAJ:ZxXHo_Hcam8C:
-    title: 'ARIES: Relation Assessment and Model Recommendation for Deep Time Series
-      Forecasting'
+    title: 'Aries: Relation assessment and model recommendation for deep time series
+      forecasting'
     year: '2025'
-    citations: 2
+    citations: 3
   -9_KI-wAAAAJ:mNm_27jwclsC:
     title: 'APT: Affine Prototype-Timestamp For Time Series Forecasting Under Distribution
       Shift'
