@@ -6,7 +6,7 @@ subtitle: Assistant Professor @ <a href="https://www.ict.ac.cn/">Institute of Co
 
 profile:
   align: right
-  image: s22.jpg
+  image: s22.png
   image_circular: false # crops the image to make it circular
   more_info: >
 
