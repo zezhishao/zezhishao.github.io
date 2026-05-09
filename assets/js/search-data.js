@@ -92,8 +92,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20260114/";
-            },},{id: "news-three-papers-zeus-pulse-and-dropoutts-have-been-accepted-to-icml-39-26",
-          title: 'Three papers, Zeus, PULSE, and DropoutTS, have been accepted to ICML&amp;#39;26!',
+            },},{id: "news-three-papers-zeus-pulse-and-dropoutts-have-been-accepted-to-icml-2026",
+          title: 'Three papers, Zeus, PULSE, and DropoutTS, have been accepted to ICML 2026!',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20260501/";
