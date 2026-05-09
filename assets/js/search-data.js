@@ -92,8 +92,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20260114/";
-            },},{id: "news-three-papers-accepted-to-icml-2026",
-          title: 'Three Papers Accepted to ICML 2026',
+            },},{id: "news-",
+          title: '',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20260509/";
