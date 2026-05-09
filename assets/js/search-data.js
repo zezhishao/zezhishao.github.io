@@ -92,11 +92,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20260114/";
-            },},{id: "news-",
-          title: '',
+            },},{id: "news-announcement-20260501",
+          title: 'Announcement_20260501',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_20260509/";
+              window.location.href = "/news/announcement_20260501/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
