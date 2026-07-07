@@ -235,6 +235,7 @@ plugins:
   - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
+  - jekyll-polyglot
   - jemoji
 
 # Sitemap settings

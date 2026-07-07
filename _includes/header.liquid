@@ -138,13 +138,26 @@
           {% if site.languages.size > 1 %}
             <!-- Language Switcher -->
             <li class="nav-item language-switcher">
+              {% assign current_url = page.url | replace: 'index.html', '' %}
+              {% if site.active_lang != site.default_lang %}
+                {% assign active_lang_prefix = '/' | append: site.active_lang %}
+                {% assign current_url = current_url | remove_first: active_lang_prefix %}
+              {% endif %}
+              {% if current_url == '' %}
+                {% assign current_url = '/' %}
+              {% endif %}
               {% for lang in site.languages %}
                 {% if lang == site.active_lang %}
                   <span class="nav-link active-lang" style="font-weight:bold;color:var(--global-theme-color);cursor:default;">
                     {% if lang == 'en' %}EN{% elsif lang == 'zh' %}中文{% else %}{{ lang }}{% endif %}
                   </span>
                 {% else %}
-                  <a class="nav-link" href="{% if lang == site.default_lang %}{{ site.baseurl }}{{ page.url }}{% else %}{{ site.baseurl }}/{{ lang }}{{ page.url }}{% endif %}" {% if lang == site.default_lang %}data-no-polyglot{% endif %}>
+                  {% if lang == site.default_lang %}
+                    {% assign lang_url = current_url %}
+                  {% else %}
+                    {% assign lang_url = '/' | append: lang | append: current_url %}
+                  {% endif %}
+                  <a class="nav-link" href="{{ lang_url | prepend: site.baseurl }}" data-no-polyglot>
                     {% if lang == 'en' %}EN{% elsif lang == 'zh' %}中文{% else %}{{ lang }}{% endif %}
                   </a>
                 {% endif %}

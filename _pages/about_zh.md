@@ -1,5 +1,4 @@
 ---
-
 layout: about
 title: 关于
 permalink: /
@@ -24,7 +23,7 @@ latest_posts:
   enabled: false
   scrollable: true
   limit: 3
-----------------------
+---
 
 我目前是中国科学院计算技术研究所（ICT, CAS）助理研究员，隶属于[装备智能系统研究中心](https://ict.cas.cn/jssgk/zzjg/kyxt/zxzx/js/)和[智能算法安全全国重点实验室](https://klais.ict.ac.cn/)。我的研究兴趣包括时间序列分析、时空数据挖掘和 AI4Science。此前，我在中国科学院计算技术研究所获得博士学位，导师为 **[徐勇军研究员](https://scholar.google.com/citations?user=l34KxTYAAAAJ&hl=zh-CN)**，并由 **[王飞研究员](https://finleywang.github.io)** 和 **[魏巍教授](https://www.eric-weiwei.com/)** 共同指导。
 
