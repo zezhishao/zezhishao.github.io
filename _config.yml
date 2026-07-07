@@ -18,15 +18,6 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: s22_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-# -----------------------------------------------------------------------------
-# Multi-language support (jekyll-polyglot)
-# -----------------------------------------------------------------------------
-languages: ["en", "zh"]
-default_lang: "en"
-parallel_localization: true
-exclude_from_localization: ["assets", "javascript", "images", "css", "public", "favicon"]
-lang_from_rss: true
-
 url: https://zezhishao.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
@@ -209,6 +200,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/about_zh.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -235,7 +227,6 @@ plugins:
   - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
-  - jekyll-polyglot
   - jemoji
 
 # Sitemap settings
