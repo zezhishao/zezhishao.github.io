@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+lang: en
 subtitle: Assistant Professor @ <a href="https://www.ict.ac.cn/">Institute of Computing Technology, Chinese Academy of Sciences</a>.
 
 profile:
@@ -30,14 +31,9 @@ I have published over 30 papers in top-tier journals (e.g., *The Innovation*, *T
 
 Beyond academic research, I am also passionate about open-source software. My GitHub projects have received over 2.7K stars in total, and I am the maintainer of the widely used time series project **[BasicTS](https://github.com/GestaltCogTeam/BasicTS)**.
 
-<!-- My research interests mainly lie in:
-
-- **Time Series Analysis**: foundation models, forecasting in critical scenarios, high-efficiency model architecture.
-- **Spatio-Temporal (ST) Data Mining**: ST foundation models, ST data synthesis, fair and scalable benchmark for ST models.
+My research interests mainly lie in: 
+- **Time Series Analysis**: foundation models, forecasting in critical scenarios, high-efficiency model architecture. 
+- **Spatio-Temporal (ST) Data Mining**: ST foundation models, ST data synthesis, fair and scalable benchmark for ST models. 
 - **AI for Science**: ST datamining in Urban Science, Atmospheric Science, Ocean Science, Marine Science.
 
-My academic services include：
-
-- **Conference PC Member**: ICLR, ICML, NeurIPS, KDD, WWW, AAAI, IJCAI, CIKM, ...
-- **Journal Reviewer**: IEEE TPAMI, IEEE TKDD, IEEE TKDE, The Innovation, PR, KBS, NN, ...
- -->
+Email: ***shaozezhi at ict.ac.cn***.

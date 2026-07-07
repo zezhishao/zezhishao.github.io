@@ -315,18 +315,34 @@
               role="button"
             >
               {% assign citation_count = 0 %}
+              {% assign title_slug = entry.title | slugify %}
               {% assign scholar_id_key = site.scholar_userid | append: ":" | append: entry.google_scholar_id %}
               {% assign publication_key = entry.google_scholar_id %}
               
-              {% if site.data.citations.papers[scholar_id_key] %}
+              {% comment %}Primary: match by title slug (stable, survives Google Scholar ID changes){% endcomment %}
+              {% if site.data.citations.papers[title_slug] %}
+                {% assign citation_count = site.data.citations.papers[title_slug].citations %}
+              {% comment %}Fallback 1: match by full scholar ID key (old format){% endcomment %}
+              {% elsif site.data.citations.papers[scholar_id_key] %}
                 {% assign citation_count = site.data.citations.papers[scholar_id_key].citations %}
+              {% comment %}Fallback 2: match by publication key only (old format){% endcomment %}
               {% elsif site.data.citations.papers[publication_key] %}
                 {% assign citation_count = site.data.citations.papers[publication_key].citations %}
+              {% comment %}Fallback 3: iterate to find by scholar_id field or partial key match{% endcomment %}
               {% else %}
                 {% for paper in site.data.citations.papers %}
                   {% assign paper_key = paper[0] %}
+                  {% assign paper_data = paper[1] %}
+                  {% comment %}Check new-format: paper has matching scholar_id field{% endcomment %}
+                  {% if paper_data.scholar_id %}
+                    {% if paper_data.scholar_id == entry.google_scholar_id %}
+                      {% assign citation_count = paper_data.citations %}
+                      {% break %}
+                    {% endif %}
+                  {% endif %}
+                  {% comment %}Check old-format: key contains the full scholar ID{% endcomment %}
                   {% if paper_key contains entry.google_scholar_id %}
-                    {% assign citation_count = paper[1].citations %}
+                    {% assign citation_count = paper_data.citations %}
                     {% break %}
                   {% endif %}
                 {% endfor %}

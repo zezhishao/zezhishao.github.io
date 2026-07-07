@@ -305,6 +305,33 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
+  // Language switcher
+  .language-switcher {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin-left: 0.5rem;
+
+    .nav-link {
+      display: inline;
+      padding: 0 0.25rem;
+      font-size: 0.85rem;
+    }
+
+    .active-lang {
+      display: inline;
+      padding: 0 0.25rem;
+      font-size: 0.85rem;
+    }
+
+    .lang-sep {
+      display: inline;
+      padding: 0;
+      color: var(--global-text-color);
+      opacity: 0.5;
+    }
+  }
+
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;

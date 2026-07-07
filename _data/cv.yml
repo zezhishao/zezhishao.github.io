@@ -33,20 +33,17 @@
       description:
         - Focus on thoery, technology and application innovation of Spatial-Temporal Data Mining.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/GestaltCogTeam/BasicTS">BasicTS</a>
-      year: 2022-now
-      description: A Fair and Scalable Time Series Forecasting Benchmark and Toolkit.
-
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items: ACM SIGSPATIAL CHN 空间数据智能“新星学者“
+    - year: 2025
+      items: 指挥与控制学会 科技进步一等奖
     - year: 2025
       items:  中国科学院优博 (Outstanding Doctoral Dissertation of the CAS)
     - year: 2024
-      items:  中国科学院院长优秀奖 (Excellence Award from the President of the CAS)
+      items:  中国科学院院长奖 (Excellence Award from the President of the CAS)
     - year: 2023
       items:
         - 中科院计算所 所长特别奖（夏培肃奖） (Director's Special Award of the ICT, CAS) (Top 2 / All PhD Graduates)
@@ -70,6 +67,13 @@
         - ST AI for Urban Science.
         - ST AI for Atmospheric Science.
         - ST AI for Ocean Science, Marine Science.    
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/GestaltCogTeam/BasicTS">BasicTS</a>
+      year: 2022-now
+      description: A Fair and Scalable Time Series Forecasting Benchmark and Toolkit.
 
 - title: Other Interests
   type: list

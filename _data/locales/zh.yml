@@ -1,0 +1,24 @@
+# Chinese locale strings
+zh:
+  about: 关于
+  publications: 论文发表
+  repositories: 代码仓库
+  cv: 个人简历
+  news: 新闻动态
+  blog: 博客
+  teaching: 教学
+  projects: 项目
+  people: 团队成员
+  books: 书籍
+  selected_publications: 代表性论文
+  latest_posts: 最新文章
+  latest_news: 最新消息
+  github_repositories: GitHub 仓库
+  visitor_statistics: 访问统计
+  visitors_since: 访问者，自
+  toggle_navigation: 切换导航
+  search: 搜索
+  light_mode: 浅色
+  dark_mode: 深色
+  back_to_top: 回到顶部
+  contact_note: 邮箱：shaozezhi at ict dot ac dot cn

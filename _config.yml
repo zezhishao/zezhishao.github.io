@@ -18,6 +18,15 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: s22_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
+# -----------------------------------------------------------------------------
+# Multi-language support (jekyll-polyglot)
+# -----------------------------------------------------------------------------
+languages: ["en", "zh"]
+default_lang: "en"
+parallel_localization: true
+exclude_from_localization: ["assets", "javascript", "images", "css", "public", "favicon"]
+lang_from_rss: true
+
 url: https://zezhishao.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
@@ -35,6 +44,15 @@ repo_trophies:
   enabled: true
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+
+# GitHub Stats API settings
+# The public github-readme-stats.vercel.app instance often hits Vercel's free tier limits (402 errors).
+# Fix: deploy your own instance to Vercel (free) and set repo_stats_url to your Vercel URL.
+# See: https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own-vercel-instance
+repo_stats_url: https://github-readme-stats-six-sigma-83.vercel.app
+repo_trophies_url: https://github-profile-trophy.vercel.app
+# Optional: GitHub Personal Access Token to increase API rate limits (keep private!)
+# github_token: ghp_xxxxxxxxxxxxxxxxxxxx
 
 # -----------------------------------------------------------------------------
 # RSS Feed

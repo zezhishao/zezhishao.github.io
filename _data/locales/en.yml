@@ -1,0 +1,24 @@
+# English locale strings
+en:
+  about: About
+  publications: Publications
+  repositories: Repositories
+  cv: CV
+  news: News
+  blog: Blog
+  teaching: Teaching
+  projects: Projects
+  people: People
+  books: Books
+  selected_publications: Selected Publications
+  latest_posts: Latest Posts
+  latest_news: News
+  github_repositories: GitHub Repositories
+  visitor_statistics: Visitor Statistics
+  visitors_since: visitors since
+  toggle_navigation: Toggle navigation
+  search: Search
+  light_mode: Light
+  dark_mode: Dark
+  back_to_top: Back to top
+  contact_note: Reach me through shaozezhi at ict dot ac dot cn
