@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write  # Needed to commit and push the updated citations file
+  actions: write  # Needed to dispatch the deployment workflow
 
 jobs:
   update-citations:
@@ -36,7 +37,13 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           
-      - name: Commit and push if changed
+      - name: Commit, push, and deploy if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git add _data/citations.yml
-          git diff --staged --quiet || (git commit -m "Update Google Scholar citations" && git push)
+          if ! git diff --staged --quiet; then
+            git commit -m "Update Google Scholar citations"
+            git push
+            gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}"
+          fi
