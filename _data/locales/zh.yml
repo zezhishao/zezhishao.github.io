@@ -1,9 +1,9 @@
 # Chinese locale strings
 zh:
-  about: 关于
-  publications: 论文发表
-  repositories: 代码仓库
-  cv: 个人简历
+  about: 首页
+  publications: 发表
+  repositories: 开源
+  cv: 简历
   news: 新闻动态
   blog: 博客
   teaching: 教学
@@ -13,7 +13,7 @@ zh:
   selected_publications: 代表性论文
   latest_posts: 最新文章
   latest_news: 最新消息
-  github_repositories: GitHub 仓库
+  github_repositories: 开源
   visitor_statistics: 访问统计
   visitors_since: 访问者，自
   toggle_navigation: 切换导航

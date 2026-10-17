@@ -1,0 +1,12 @@
+GestaltCogTeam/BasicTS:
+  description: A fair and scalable time series forecasting benchmark and toolkit for model development, training, and evaluation.
+GestaltCogTeam/STEP:
+  description: Pre-training on long historical time series to enhance spatial-temporal graph neural networks for multivariate forecasting.
+GestaltCogTeam/STID:
+  description: A simple and efficient multivariate time series forecasting baseline built on spatial and temporal identity information.
+GestaltCogTeam/D2STGNN:
+  description: A decoupled dynamic spatial-temporal graph neural network that models diffusion and inherent signals for traffic forecasting.
+GestaltCogTeam/BLAST:
+  description: A time series pre-training corpus that uses balanced sampling to improve data diversity for universal forecasting models.
+zezhishao/DailyArXiv:
+  description: A tool for tracking arXiv papers.

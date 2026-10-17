@@ -1,3 +1,6 @@
 <div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* --sort citation_count %}
+  <p class="publication-legend">
+    {% if page.lang == 'zh-CN' %}* 通讯作者；† 共同第一作者。{% else %}* Corresponding author; † Co-first author.{% endif %}
+  </p>
+  {% bibliography --group_by none --query @*[selected=true]* %}
 </div>

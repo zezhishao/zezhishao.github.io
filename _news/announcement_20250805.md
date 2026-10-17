@@ -1,6 +1,8 @@
 ---
 layout: post
 date: 2025-08-05 12:00:00-0000
+zh: >-
+  [STA-GANN](https://arxiv.org/pdf/2508.16161) 被 **CIKM 2025** 接收。
 inline: true
 related_posts: false
 ---

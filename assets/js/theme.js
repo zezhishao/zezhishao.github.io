@@ -252,11 +252,11 @@ let transTheme = () => {
 };
 
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
-// "system". Default is "system".
+// "system". Chinese pages default to light; other pages follow the system.
 let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
-    themeSetting = "system";
+    themeSetting = document.documentElement.lang === "zh-CN" ? "light" : "system";
   }
   return themeSetting;
 };

@@ -2,6 +2,8 @@
 layout: post
 title: Review of Foundation Model and Decision Intelligence is selected as Cover Paper!
 date: 2025-05-12 16:11:00-0400
+zh: >-
+  关于基础模型与决策智能的综述入选 **The Innovation 封面论文**。
 inline: false
 related_posts: false
 ---

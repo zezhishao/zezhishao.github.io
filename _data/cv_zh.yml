@@ -1,0 +1,83 @@
+- title: 基本信息
+  type: map
+  contents:
+    - name: 姓名
+      value: 邵泽志 · Zezhi Shao
+    - name: 语言
+      value: 中文、英语
+
+- title: 教育经历
+  type: time_table
+  contents:
+    - title: 博士
+      institution: 中国科学院大学，中国北京
+      year: 2024
+      description:
+        - 研究方向：时空数据挖掘。
+        - 导师：徐勇军。
+    - title: 工学学士
+      institution: 山东大学，中国山东济南
+      year: 2019
+      description:
+        - 专业：通信工程。
+        - 导师：王鹏伟。
+
+- title: 工作经历
+  type: time_table
+  contents:
+    - title: 助理研究员
+      institution: 中国科学院计算技术研究所
+      year: 2024—至今
+      description:
+        - 从事时空数据挖掘的理论、技术与应用研究。
+
+- title: 荣誉奖励
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - 斯坦福大学与爱思唯尔全球前 2% 顶尖科学家榜单（World’s Top 2% Scientists）
+        - ACM SIGSPATIAL CHN 空间数据智能“新星学者”
+    - year: 2025
+      items:
+        - 指挥与控制学会科技进步一等奖
+        - 中国科学院优秀博士学位论文
+    - year: 2024
+      items:
+        - 中国科学院院长奖
+    - year: 2023
+      items:
+        - 中国科学院计算技术研究所所长特别奖（夏培肃奖），博士毕业生前 2 名
+        - 国家奖学金
+
+- title: 研究兴趣
+  type: nested_list
+  contents:
+    - title: 时空数据挖掘
+      items:
+        - 时空基础模型。
+        - 时空数据合成。
+        - 公平且可扩展的时空模型评测基准。
+    - title: 时间序列分析
+      items:
+        - 时间序列基础模型。
+        - 关键场景下的预测。
+        - 高效模型架构。
+    - title: AI for Science
+      items:
+        - 城市科学中的时空智能。
+        - 大气科学中的时空智能。
+        - 海洋科学与海事科学中的时空智能。
+
+- title: 开源项目
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/GestaltCogTeam/BasicTS">BasicTS</a>
+      year: 2022—至今
+      description:
+        - 公平、可扩展的时间序列预测基准与工具集。
+
+- title: 其他兴趣
+  type: list
+  contents:
+    - 篮球、徒步、跑步等。

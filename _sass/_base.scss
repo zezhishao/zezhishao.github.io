@@ -697,6 +697,19 @@ footer.sticky-bottom {
 .publications {
   margin-top: 2rem;
 
+  .publication-legend {
+    margin: 0 0 1.5rem;
+    color: color-mix(in srgb, var(--global-text-color-light) 85%, var(--global-text-color));
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  .author-role {
+    margin-left: 0.1em;
+    font-size: 0.75em;
+    font-weight: 600;
+  }
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;

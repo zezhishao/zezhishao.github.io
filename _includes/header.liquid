@@ -1,9 +1,13 @@
+{% assign is_chinese = false %}
+{% if page.lang == 'zh-CN' %}{% assign is_chinese = true %}{% endif %}
+{% assign home_url = '/en/' %}
+{% if is_chinese %}{% assign home_url = '/' %}{% endif %}
 <header>
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+      {% if page.permalink != home_url %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ home_url | relative_url }}">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
@@ -32,9 +36,11 @@
         data-target="#navbarNav"
         aria-controls="navbarNav"
         aria-expanded="false"
-        aria-label="Toggle navigation"
+        aria-label="{% if is_chinese %}切换导航{% else %}Toggle navigation{% endif %}"
       >
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">
+          {%- if is_chinese %}切换导航{% else %}Toggle navigation{% endif -%}
+        </span>
         <span class="icon-bar top-bar"></span>
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
@@ -42,15 +48,15 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+          {% for home_page in site.pages %}
+            {% if home_page.permalink == home_url %} {% assign about_title = home_page.nav_title | default: home_page.title %} {% endif %}
           {% endfor %}
 
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
-              {% if page.permalink == '/' %}
+          <li class="nav-item {% if page.permalink == home_url %}active{% endif %}">
+            <a class="nav-link" href="{{ home_url | relative_url }}">
+              {% if is_chinese %}首页{% else %}{{- about_title }}{% endif %}
+              {% if page.permalink == home_url %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -59,6 +65,7 @@
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
+            {% if is_chinese and p.permalink == '/people/' %}{% continue %}{% endif %}
             {% if p.nav and p.autogen == null %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
@@ -77,7 +84,12 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    {{- p.title }}
+                    {%- if is_chinese -%}
+                      {%- assign nav_key = p.title | downcase | replace: ' ', '_' -%}
+                      {{- site.data.locales.zh.zh[nav_key] | default: p.title -}}
+                    {%- else -%}
+                      {{- p.title -}}
+                    {%- endif %}
                     {% if page.title == p.title or has_active_child %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -99,6 +111,9 @@
                 </li>
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
+                {% if is_chinese and p.language_alternate %}
+                  {% assign parent_link = p.language_alternate %}
+                {% endif %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {%- if p.permalink contains '://' -%}
                     {%- assign url = p.permalink -%}
@@ -107,9 +122,17 @@
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
+                  {% if is_chinese and p.language_alternate %}
+                    {% assign url = p.language_alternate %}
+                  {% endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
-                    {% if page.url contains p.url %}
+                    {%- if is_chinese -%}
+                      {%- assign nav_key = p.title | downcase | replace: ' ', '_' -%}
+                      {{- site.data.locales.zh.zh[nav_key] | default: p.title -}}
+                    {%- else -%}
+                      {{- p.title -}}
+                    {%- endif %}
+                    {% if page.url contains parent_link %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>
@@ -117,7 +140,28 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          {% if site.search_enabled %}
+          <li class="nav-item">
+            {% if is_chinese %}
+              <a
+                class="nav-link language-switch"
+                href="{{ page.language_alternate | default: '/en/' | relative_url }}"
+                lang="en"
+                hreflang="en"
+                aria-label="Switch to English"
+                >English</a
+              >
+            {% else %}
+              <a
+                class="nav-link language-switch"
+                href="{{ page.language_alternate | default: '/' | relative_url }}"
+                lang="zh-CN"
+                hreflang="zh-CN"
+                aria-label="切换到中文页面"
+                >中文</a
+              >
+            {% endif %}
+          </li>
+          {% if site.search_enabled and is_chinese == false %}
             <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
@@ -125,18 +169,11 @@
               </button>
             </li>
           {% endif %}
-          {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
-            <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
-                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
-                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
-              </button>
-            </li>
-          {% endif %}
         </ul>
       </div>
+      {% if site.enable_darkmode %}
+        {% include theme_toggle.liquid %}
+      {% endif %}
     </div>
   </nav>
   {% if site.enable_progressbar %}

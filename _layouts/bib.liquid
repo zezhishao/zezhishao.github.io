@@ -86,6 +86,21 @@
             {{- author.first }}
             {{ author_last_html -}}
           </em>
+          {%- if entry.self_role == 'corresponding' -%}
+            <sup
+              class="author-role"
+              title="{% if page.lang == 'zh-CN' %}通讯作者{% else %}Corresponding author{% endif %}"
+              aria-label="{% if page.lang == 'zh-CN' %}通讯作者{% else %}Corresponding author{% endif %}"
+              >*</sup
+            >
+          {%- elsif entry.self_role == 'cofirst' -%}
+            <sup
+              class="author-role"
+              title="{% if page.lang == 'zh-CN' %}共同第一作者{% else %}Co-first author{% endif %}"
+              aria-label="{% if page.lang == 'zh-CN' %}共同第一作者{% else %}Co-first author{% endif %}"
+              >†</sup
+            >
+          {%- endif -%}
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
@@ -105,6 +120,9 @@
         {%- if more_authors > 1 -%}
           {% assign more_authors_hide = more_authors_hide | append: 's' %}
         {%- endif -%}
+        {% if page.lang == 'zh-CN' %}
+          {% assign more_authors_hide = more_authors | prepend: '另 ' | append: ' 位作者' %}
+        {% endif %}
         {% assign more_authors_show = '' %}
         {%- for author in entry.author_array offset: author_array_limit -%}
           {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
@@ -113,10 +131,10 @@
           {% endunless %}
         {%- endfor -%}
         {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        , and
+        {% if page.lang == 'zh-CN' %}，{% else %}, and{% endif %}
         <span
           class="more-authors"
-          title="click to view {{ more_authors_hide }}"
+          title="{% if page.lang == 'zh-CN' %}点击查看{{ more_authors_hide }}{% else %}click to view {{ more_authors_hide }}{% endif %}"
           onclick="
               var element = $(this);
               element.attr('title', '');
@@ -187,16 +205,20 @@
         </a>
       {% endif %}
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        <a class="abstract btn btn-sm z-depth-0" role="button">
+          {%- if page.lang == 'zh-CN' %}摘要{% else %}Abs{% endif -%}
+        </a>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+        <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+        <a class="bibtex btn btn-sm z-depth-0" role="button">
+          {%- if page.lang == 'zh-CN' %}引用{% else %}Bib{% endif -%}
+        </a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -214,38 +236,60 @@
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
-          <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
+          <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">
+            {%- if page.lang == 'zh-CN' %}补充材料{% else %}Supp{% endif -%}
+          </a>
         {% else %}
-          <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
+          <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">
+            {%- if page.lang == 'zh-CN' %}补充材料{% else %}Supp{% endif -%}
+          </a>
         {% endif %}
       {% endif %}
       {% if entry.video and site.enable_video_embedding %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+        <a class="abstract btn btn-sm z-depth-0" role="button">
+          {%- if page.lang == 'zh-CN' %}视频{% else %}Video{% endif -%}
+        </a>
       {% elsif entry.video %}
-        <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+        <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">
+          {%- if page.lang == 'zh-CN' %}视频{% else %}Video{% endif -%}
+        </a>
       {% endif %}
       {% if entry.blog %}
-        <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
+        <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">
+          {%- if page.lang == 'zh-CN' %}博客{% else %}Blog{% endif -%}
+        </a>
       {% endif %}
       {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">
+          {%- if page.lang == 'zh-CN' %}代码{% else %}Code{% endif -%}
+        </a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
-          <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+          <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">
+            {%- if page.lang == 'zh-CN' %}海报{% else %}Poster{% endif -%}
+          </a>
         {% else %}
-          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">
+            {%- if page.lang == 'zh-CN' %}海报{% else %}Poster{% endif -%}
+          </a>
         {% endif %}
       {% endif %}
       {% if entry.slides %}
         {% if entry.slides contains '://' %}
-          <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">
+            {%- if page.lang == 'zh-CN' %}幻灯片{% else %}Slides{% endif -%}
+          </a>
         {% else %}
-          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">
+            {%- if page.lang == 'zh-CN' %}幻灯片{% else %}Slides{% endif -%}
+          </a>
         {% endif %}
       {% endif %}
       {% if entry.website %}
-        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">
+          {%- if page.lang == 'zh-CN' %}项目主页{% else %}Website{% endif -%}
+        </a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
@@ -313,19 +357,19 @@
             >
               {% assign citation_count = 0 %}
               {% assign title_slug = entry.title | slugify %}
-              {% assign scholar_id_key = site.scholar_userid | append: ":" | append: entry.google_scholar_id %}
+              {% assign scholar_id_key = site.scholar_userid | append: ':' | append: entry.google_scholar_id %}
               {% assign publication_key = entry.google_scholar_id %}
-              
+
               {% comment %}Primary: match by title slug (stable, survives Google Scholar ID changes){% endcomment %}
               {% if site.data.citations.papers[title_slug] %}
                 {% assign citation_count = site.data.citations.papers[title_slug].citations %}
-              {% comment %}Fallback 1: match by full scholar ID key (old format){% endcomment %}
+                {% comment %}Fallback 1: match by full scholar ID key (old format){% endcomment %}
               {% elsif site.data.citations.papers[scholar_id_key] %}
                 {% assign citation_count = site.data.citations.papers[scholar_id_key].citations %}
-              {% comment %}Fallback 2: match by publication key only (old format){% endcomment %}
+                {% comment %}Fallback 2: match by publication key only (old format){% endcomment %}
               {% elsif site.data.citations.papers[publication_key] %}
                 {% assign citation_count = site.data.citations.papers[publication_key].citations %}
-              {% comment %}Fallback 3: iterate to find by scholar_id field or partial key match{% endcomment %}
+                {% comment %}Fallback 3: iterate to find by scholar_id field or partial key match{% endcomment %}
               {% else %}
                 {% for paper in site.data.citations.papers %}
                   {% assign paper_key = paper[0] %}
@@ -344,7 +388,7 @@
                   {% endif %}
                 {% endfor %}
               {% endif %}
-              
+
               <img
                 src="https://img.shields.io/badge/Cited-{{ citation_count }}-4285F4?logo=googlescholar&labelColor=beige"
                 alt="{{ citation_count }} Google Scholar citations"
@@ -386,7 +430,7 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
+      {% endhighlight %}
       </div>
     {% endif %}
 

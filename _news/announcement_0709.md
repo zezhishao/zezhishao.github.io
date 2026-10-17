@@ -2,6 +2,8 @@
 layout: post
 title: One Tutorial about MTS heterogeneity has been Accepted by SSTD 2025！
 date: 2025-07-09 12:00:00-0000
+zh: >-
+  关于多元时间序列异质性与自适应建模的 Tutorial 被 **SSTD 2025** 接收。
 inline: false
 related_posts: false
 ---

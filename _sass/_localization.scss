@@ -1,0 +1,484 @@
+// Keep the original academic layout; self-host the Chinese page's typefaces.
+html[lang="zh-CN"] {
+  // Scale every rem-based text size together, only on Chinese pages.
+  font-size: 17px;
+  --zh-space-tight: 0.25rem;
+  --zh-space-small: 0.5rem;
+  --zh-space-block: 1rem;
+  --zh-space-group: 1.5rem;
+  --zh-space-section: 2rem;
+  --zh-muted-text: color-mix(in srgb, var(--global-text-color-light) 85%, var(--global-text-color));
+  --zh-prose-color: color-mix(in srgb, var(--global-text-color) 92%, var(--global-bg-color));
+
+  body {
+    font-family: "Belleza", "Zhuque Fangsong", serif;
+    font-weight: 400;
+  }
+
+  .container {
+    max-width: 1000px;
+  }
+
+  #navbar {
+    // Match the original 56px bar without letting larger text add height.
+    min-height: 56px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    > .container {
+      min-height: 55px; // The remaining pixel is the navbar's bottom border.
+    }
+
+    .navbar-collapse {
+      order: 1;
+    }
+
+    .navbar-nav {
+      align-items: center;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      min-height: 40px;
+      padding: 0.5rem 0.65rem;
+      font-family: "Belleza", "Site Sans SC", sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.5;
+      white-space: nowrap;
+    }
+
+    .navbar-nav .nav-item .nav-link.language-switch {
+      font-family: "Belleza", "Zhuque Fangsong", serif;
+      font-weight: 700;
+      font-synthesis: weight;
+    }
+
+    #light-toggle {
+      order: 2;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      width: 36px;
+      height: 40px;
+      margin-left: 0.35rem;
+      cursor: pointer;
+
+      i {
+        padding: 0;
+        font-size: 1.3rem;
+        line-height: 1;
+      }
+
+      &:focus-visible {
+        outline: 2px solid var(--global-theme-color);
+        outline-offset: 2px;
+      }
+    }
+  }
+
+  .post > article {
+    font-family: "Belleza", "Zhuque Fangsong", serif;
+    -webkit-font-smoothing: antialiased;
+
+    em {
+      font-style: normal;
+    }
+  }
+
+  .post > article > .clearfix {
+    line-height: 1.7;
+
+    &,
+    p,
+    li,
+    strong,
+    em,
+    span {
+      color: var(--zh-prose-color);
+    }
+
+    strong {
+      font-weight: 500;
+      font-synthesis: none;
+    }
+
+    p {
+      margin-bottom: var(--zh-space-block);
+    }
+
+    p:has(+ ul) {
+      margin-bottom: var(--zh-space-small);
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: var(--zh-space-block);
+    }
+
+    li + li {
+      margin-top: var(--zh-space-tight);
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .post-header {
+    margin-bottom: var(--zh-space-group);
+
+    .desc {
+      margin-bottom: 0;
+    }
+  }
+
+  .post-title,
+  .post-header .desc,
+  .post > article > .about-section-title {
+    font-family: "Belleza", "Site Sans SC", sans-serif;
+    font-weight: 700;
+  }
+
+  .post-title {
+    margin-bottom: var(--zh-space-small);
+  }
+
+  .post > article > .about-section-title {
+    margin: var(--zh-space-section) 0 var(--zh-space-block);
+    font-size: 28px;
+    line-height: 1.35;
+  }
+
+  .news .table-responsive {
+    max-height: 18rem !important;
+    scrollbar-gutter: stable;
+  }
+
+  .news .table {
+    margin-bottom: 0;
+
+    th,
+    td {
+      padding-top: var(--zh-space-small);
+      padding-bottom: var(--zh-space-small);
+    }
+
+    tr:first-child th,
+    tr:first-child td {
+      padding-top: 0;
+    }
+
+    tr:last-child th,
+    tr:last-child td {
+      padding-bottom: 0;
+    }
+  }
+
+  .publications {
+    margin-top: 0;
+    line-height: 1.6;
+
+    ol.bibliography {
+      margin-bottom: 0;
+
+      > li {
+        margin-bottom: var(--zh-space-group);
+      }
+
+      > li:last-child {
+        margin-bottom: 0;
+      }
+
+      .title,
+      .author {
+        margin-bottom: var(--zh-space-tight);
+      }
+
+      .title {
+        line-height: 1.45;
+      }
+
+      .author,
+      .periodical {
+        color: var(--zh-muted-text);
+        font-size: 0.94rem;
+        line-height: 1.55;
+      }
+
+      .author > em {
+        color: var(--global-text-color);
+      }
+
+      .periodical em {
+        color: inherit;
+        font-weight: 400;
+      }
+
+      .abbr abbr {
+        box-shadow: none;
+      }
+
+      @media (min-width: 576px) {
+        .abbr {
+          flex: 0 0 8rem;
+          max-width: 8rem;
+        }
+
+        .row > [id] {
+          flex: 1;
+          max-width: calc(100% - 8rem);
+        }
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--zh-space-tight);
+        margin-top: var(--zh-space-small);
+
+        a.btn {
+          max-width: 100%;
+          margin: 0;
+          white-space: normal;
+        }
+
+        // Keep an award on its own row while retaining its expand/collapse control.
+        &:has(a.award)::before {
+          content: "";
+          flex-basis: 100%;
+          order: 1;
+        }
+
+        a.award {
+          order: 0;
+          text-transform: none;
+          text-align: left;
+        }
+
+        a:not(.award) {
+          order: 2;
+        }
+      }
+
+      .badges {
+        margin-top: var(--zh-space-small);
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .post > article > .social {
+    margin-top: var(--zh-space-section);
+
+    .contact-icons {
+      font-size: 2.5rem;
+      line-height: 1.25;
+
+      a img {
+        width: 2rem;
+        height: 2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      a svg {
+        width: 2.2rem;
+        height: 2.5rem;
+        margin-bottom: 0.25rem;
+
+        image {
+          width: 2.2rem;
+          height: 2.2rem;
+        }
+      }
+    }
+
+    .contact-note {
+      margin-top: var(--zh-space-small);
+      color: var(--zh-muted-text);
+    }
+  }
+
+  .visitor-map {
+    margin-top: var(--zh-space-group) !important;
+  }
+
+  .visitor-count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--zh-space-tight);
+    width: 100% !important;
+    height: auto !important;
+    padding: var(--zh-space-small) 0 var(--zh-space-block);
+    color: var(--zh-muted-text);
+
+    a {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    img {
+      display: block;
+      width: 4.5em;
+      height: 1em;
+      object-fit: contain;
+    }
+
+    .visitor-count-label {
+      color: inherit;
+      line-height: 1.5;
+      white-space: nowrap;
+    }
+  }
+
+  .news th {
+    width: 8.25rem !important;
+    padding-right: var(--zh-space-block);
+    white-space: nowrap;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--zh-muted-text);
+  }
+
+  .news td {
+    line-height: 1.7;
+  }
+
+  .news-detail {
+    white-space: nowrap;
+    font-size: 0.8rem;
+  }
+
+  .zh-repositories {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--zh-space-section);
+  }
+
+  .bibsearch-form-input {
+    max-width: 28rem;
+    margin-bottom: var(--zh-space-block);
+    border-color: var(--global-divider-color);
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
+    }
+  }
+
+  .bibliography-note {
+    margin-bottom: var(--zh-space-group);
+    color: var(--zh-muted-text);
+    font-size: 0.875rem;
+  }
+
+  .zh-repository {
+    padding-top: var(--zh-space-block);
+    border-top: 1px solid var(--global-divider-color);
+    line-height: 1.7;
+
+    h2 {
+      margin-bottom: var(--zh-space-small);
+      font-family: "Belleza", "Site Sans SC", sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    p {
+      margin-bottom: var(--zh-space-small);
+    }
+  }
+
+  .zh-repository-link {
+    font-size: 0.875rem;
+
+    i {
+      margin-left: var(--zh-space-tight);
+      font-size: 0.75em;
+    }
+  }
+
+  .cv {
+    line-height: 1.7;
+
+    .card-title,
+    h5,
+    h6 {
+      font-family: "Belleza", "Site Sans SC", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .card-title {
+      font-size: 1.4rem;
+      margin-bottom: var(--zh-space-block);
+    }
+
+    .list-group-item {
+      padding-top: var(--zh-space-small);
+      padding-bottom: var(--zh-space-small);
+    }
+  }
+
+  @media (max-width: 575px) {
+    .zh-repositories {
+      grid-template-columns: 1fr;
+      gap: var(--zh-space-group);
+    }
+
+    #navbar {
+      .navbar-brand.social {
+        font-size: 1.35rem;
+        margin-right: 0.4rem;
+      }
+
+      #light-toggle {
+        order: 1;
+        margin-left: auto;
+      }
+
+      .navbar-toggler {
+        order: 2;
+        margin-left: 0.4rem !important;
+      }
+
+      .navbar-collapse {
+        order: 3;
+      }
+
+      .navbar-nav {
+        align-items: flex-end;
+      }
+    }
+
+    .profile {
+      float: none !important;
+      width: 190px;
+      max-width: 60%;
+      margin: 0 auto var(--zh-space-group);
+    }
+
+    .news th {
+      width: 6.75rem !important;
+      padding-right: 0.7rem;
+      font-size: 0.75rem;
+    }
+
+    .publications ol.bibliography {
+      .abbr abbr {
+        width: auto !important;
+        min-width: 5rem;
+      }
+
+      .links a.btn {
+        padding-right: 0.65rem;
+        padding-left: 0.65rem;
+      }
+    }
+  }
+}

@@ -27,8 +27,9 @@ layout: default
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
+          {% assign profile_image_alt = page.profile.image_alt | default: page.profile.image %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_image_alt
             cache_bust=true
           %}
         {% endif %}
@@ -42,15 +43,17 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+      <h2 id="news" class="about-section-title">
+        <a href="{% if page.lang == 'zh-CN' %}#news{% else %}{{ '/news/' | relative_url }}{% endif %}" style="color: inherit">
+          {%- if page.lang == 'zh-CN' %}近期动态{% else %}News{% endif -%}
+        </a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2 style="margin-top: 1rem; margin-bottom: -1rem;">
+      <h2 class="about-section-title">
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
@@ -58,8 +61,13 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2 style="margin-top: 1rem; margin-bottom: -1rem;">
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+      <h2 class="about-section-title">
+        <a
+          href="{% if page.lang == 'zh-CN' %}{{ '/zh/publications/' | relative_url }}{% else %}{{ '/publications/' | relative_url }}{% endif %}"
+          style="color: inherit"
+        >
+          {%- if page.lang == 'zh-CN' %}代表性论文{% else %}Selected Publications{% endif -%}
+        </a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -69,7 +77,9 @@ layout: default
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+        <div class="contact-note">
+          {% if page.lang == 'zh-CN' %}邮箱：shaozezhi at ict dot ac dot cn{% else %}{{ site.contact_note }}{% endif %}
+        </div>
       </div>
     {% endif %}
 
@@ -77,11 +87,27 @@ layout: default
       {% include newsletter.liquid center=true %}
     {% endif %}
 
-    <div style=" width:200px; height:100px; margin:0 auto;">
-      <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=Hd9S-0zexBCPPEBu1KrgPWc7WTvBOTc44nSdFm_qHOY'></script>
+    <div class="visitor-map" style=" width:200px; height:100px; margin:0 auto;">
+      <script
+        async
+        type="text/javascript"
+        id="mapmyvisitors"
+        src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=Hd9S-0zexBCPPEBu1KrgPWc7WTvBOTc44nSdFm_qHOY"
+      ></script>
     </div>
-    <div style=" width:300px; height:100px; margin:0 auto; text-align:center; font-size: 0.8rem;">
-        <a href="https://www.hitwebcounter.com" target="_blank"><img src="https://hitwebcounter.com/counter/counter.php?page=21364986&style=0032&nbdigits=6&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"  border="0"/></a> visitors since Aug 11th, 2025.   
+    <div class="visitor-count" id="visitor-count" style=" width:300px; height:100px; margin:0 auto; text-align:center; font-size: 0.8rem;">
+      <a href="https://www.hitwebcounter.com" target="_blank"
+        ><img
+          src="https://hitwebcounter.com/counter/counter.php?page=21364986&style=0032&nbdigits=6&type=page&initCount=0"
+          title="Counter Widget"
+          Alt="Visit counter For Websites"
+          border="0"
+      /></a>
+      {% if page.lang == 'zh-CN' -%}
+        <span class="visitor-count-label">位访客（自 2025 年 8 月 11 日起）</span>
+      {%- else -%}
+        <span class="visitor-count-label">visitors since Aug 11th, 2025.</span>
+      {%- endif %}
     </div>
   </article>
 </div>

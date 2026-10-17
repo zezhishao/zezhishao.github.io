@@ -1,0 +1,327 @@
+// Adapt the Chinese edition's spacing while preserving the original English font.
+html[lang="en"] {
+  --en-muted-text: color-mix(in srgb, var(--global-text-color-light) 85%, var(--global-text-color));
+
+  .container {
+    max-width: 1000px;
+  }
+
+  #navbar {
+    min-height: 56px;
+    padding-top: 0;
+    padding-bottom: 0;
+    > .container {
+      min-height: 55px;
+    }
+    .navbar-collapse {
+      order: 1;
+    }
+    .navbar-nav {
+      align-items: center;
+    }
+    .navbar-nav .nav-link {
+      display: flex;
+      align-items: center;
+      min-height: 40px;
+      line-height: 1.5;
+      white-space: nowrap;
+    }
+    #light-toggle {
+      order: 2;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      width: 36px;
+      height: 40px;
+      margin-left: 0.35rem;
+      cursor: pointer;
+      i {
+        padding: 0;
+        font-size: 1.3rem;
+        line-height: 1;
+      }
+      &:focus-visible {
+        outline: 2px solid var(--global-theme-color);
+        outline-offset: 2px;
+      }
+    }
+  }
+
+  .post-header {
+    margin-bottom: 1.5rem;
+    .desc {
+      margin-bottom: 0;
+      line-height: 1.6;
+    }
+  }
+  .post > article {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+  }
+  .post > article > .clearfix {
+    line-height: 1.65;
+    p,
+    ul {
+      margin-bottom: 1rem;
+    }
+    p:has(+ ul) {
+      margin-bottom: 0.5rem;
+    }
+    li + li {
+      margin-top: 0.25rem;
+    }
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+  .post > article > .about-section-title {
+    margin: 2rem 0 1rem;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.35;
+  }
+
+  .news .table-responsive[style] {
+    max-height: 18rem !important;
+    scrollbar-gutter: stable;
+  }
+  .news .table {
+    margin-bottom: 0;
+    th,
+    td {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      line-height: 1.6;
+    }
+    th {
+      width: 7.5rem !important;
+      padding-right: 1rem;
+      font-size: 0.875rem;
+      font-weight: 400;
+      color: var(--en-muted-text);
+      white-space: nowrap;
+    }
+    tr:first-child th,
+    tr:first-child td {
+      padding-top: 0;
+    }
+    tr:last-child th,
+    tr:last-child td {
+      padding-bottom: 0;
+    }
+  }
+
+  .publications {
+    margin-top: 0;
+    line-height: 1.6;
+    ol.bibliography {
+      margin-bottom: 0;
+      > li {
+        margin-bottom: 1.75rem;
+      }
+      > li:last-child {
+        margin-bottom: 0;
+      }
+      .title,
+      .author {
+        margin-bottom: 0.25rem;
+      }
+      .title {
+        line-height: 1.45;
+      }
+      .author,
+      .periodical {
+        color: var(--en-muted-text);
+        font-size: 0.94rem;
+        line-height: 1.55;
+      }
+      .author > em {
+        color: var(--global-text-color);
+      }
+      .periodical em {
+        color: inherit;
+        font-weight: 400;
+      }
+      .abbr abbr {
+        box-shadow: none;
+      }
+      @media (min-width: 576px) {
+        .abbr {
+          flex: 0 0 8rem;
+          max-width: 8rem;
+        }
+        .row > [id] {
+          flex: 1;
+          max-width: calc(100% - 8rem);
+        }
+      }
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+        margin-top: 0.5rem;
+        a.btn {
+          max-width: 100%;
+          margin: 0;
+          white-space: normal;
+        }
+        &:has(a.award)::before {
+          content: "";
+          flex-basis: 100%;
+          order: 1;
+        }
+        a.award {
+          order: 0;
+          text-transform: none;
+          text-align: left;
+        }
+        a:not(.award) {
+          order: 2;
+        }
+      }
+      .badges {
+        margin-top: 0.5rem;
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .post > article > .social {
+    margin-top: 2rem;
+    .contact-icons {
+      font-size: 2.5rem;
+      line-height: 1.25;
+      a img {
+        width: 2rem;
+        height: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      a svg {
+        width: 2.2rem;
+        height: 2.5rem;
+        margin-bottom: 0.25rem;
+        image {
+          width: 2.2rem;
+          height: 2.2rem;
+        }
+      }
+    }
+    .contact-note {
+      margin-top: 0.5rem;
+      color: var(--en-muted-text);
+    }
+  }
+  .visitor-map {
+    margin-top: 1.5rem !important;
+  }
+  .visitor-count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    width: 100% !important;
+    height: auto !important;
+    padding: 0.5rem 0 1rem;
+    color: var(--en-muted-text);
+    img {
+      display: block;
+      width: 4.5em;
+      height: 1em;
+      object-fit: contain;
+    }
+    .visitor-count-label {
+      color: inherit;
+      line-height: 1.5;
+    }
+  }
+  .bibsearch-form-input {
+    max-width: 28rem;
+    margin-bottom: 1rem;
+    border-color: var(--global-divider-color);
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
+    }
+  }
+  .en-repositories {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+  .en-repository {
+    padding-top: 1rem;
+    border-top: 1px solid var(--global-divider-color);
+    line-height: 1.65;
+    h2 {
+      margin-bottom: 0.5rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+    p {
+      margin-bottom: 0.5rem;
+    }
+    .repository-link {
+      font-size: 0.875rem;
+    }
+  }
+  .cv {
+    line-height: 1.65;
+    .card-title {
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+    }
+    .list-group-item {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  @media (max-width: 575px) {
+    #navbar {
+      .navbar-brand.social {
+        font-size: 1.35rem;
+        margin-right: 0.4rem;
+      }
+      #light-toggle {
+        order: 1;
+        margin-left: auto;
+      }
+      .navbar-toggler {
+        order: 2;
+        margin-left: 0.4rem !important;
+      }
+      .navbar-collapse {
+        order: 3;
+      }
+      .navbar-nav {
+        align-items: flex-end;
+      }
+    }
+    .profile {
+      float: none !important;
+      width: 190px;
+      max-width: 60%;
+      margin: 0 auto 1.5rem;
+    }
+    .news .table th {
+      width: 6.5rem !important;
+      padding-right: 0.7rem;
+      font-size: 0.8rem;
+    }
+    .publications ol.bibliography {
+      .abbr abbr {
+        width: auto !important;
+        min-width: 5rem;
+      }
+      .links a.btn {
+        padding-right: 0.65rem;
+        padding-left: 0.65rem;
+      }
+    }
+    .en-repositories {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+}

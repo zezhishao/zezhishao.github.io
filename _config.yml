@@ -200,7 +200,6 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
-  - _pages/about_zh.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -330,6 +329,8 @@ filtered_bibtex_keywords:
     poster,
     preview,
     selected,
+    selected_order,
+    self_role,
     slides,
     supp,
     video,

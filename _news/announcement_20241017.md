@@ -1,6 +1,8 @@
 ---
 layout: post
 date: 2024-10-21 12:00:00-0000
+zh: >-
+  [PatchSTG](https://dl.acm.org/doi/abs/10.1145/3690624.3709177) 被 **KDD 2025** 接收。
 inline: true
 related_posts: false
 ---

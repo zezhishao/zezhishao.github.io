@@ -2,6 +2,8 @@
 layout: post
 title: One PVLDB paper about traffic prediction has entered ESI high cited papers!
 date: 2026-01-14 12:00:00-0000
+zh: >-
+  关于交通预测的 [D2STGNN 论文](https://dl.acm.org/doi/abs/10.14778/3551793.3551827)入选 **ESI 高被引论文**。
 inline: false
 related_posts: false
 ---

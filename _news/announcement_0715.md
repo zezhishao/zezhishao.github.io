@@ -2,6 +2,8 @@
 layout: post
 title: One TKDE paper about MTS heterogeneity has entered ESI Hot Papers!
 date: 2025-07-15 12:00:00-0000
+zh: >-
+  关于多元时间序列异质性与 BasicTS 的 [TKDE 论文](https://ieeexplore.ieee.org/document/10726722/)入选 **ESI 热点论文**。
 inline: false
 related_posts: false
 ---

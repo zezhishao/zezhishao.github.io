@@ -1,0 +1,12 @@
+GestaltCogTeam/BasicTS:
+  description: 公平、可扩展的时间序列预测基准与工具集，支持模型开发、训练与评估。
+GestaltCogTeam/STEP:
+  description: 利用长历史时间序列进行预训练，增强时空图神经网络的多变量时间序列预测能力。
+GestaltCogTeam/STID:
+  description: 基于时空身份信息的简洁、高效的多变量时间序列预测基线。
+GestaltCogTeam/D2STGNN:
+  description: 面向交通预测的解耦动态时空图神经网络，分别建模交通数据中的扩散信号与固有信号。
+GestaltCogTeam/BLAST:
+  description: 面向通用预测模型的时间序列预训练语料，通过均衡采样提升数据多样性。
+zezhishao/DailyArXiv:
+  description: arXiv 论文追踪工具。

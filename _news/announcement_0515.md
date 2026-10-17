@@ -1,6 +1,8 @@
 ---
 layout: post
 date: 2025-05-15 12:00:00-0000
+zh: >-
+  [BLAST](https://dl.acm.org/doi/abs/10.1145/3711896.3736860) 与 [Merlin](https://dl.acm.org/doi/abs/10.1145/3711896.3737046) 两篇论文被 **KDD 2025** 接收。
 inline: true
 related_posts: false
 ---

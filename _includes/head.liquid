@@ -22,6 +22,9 @@
 {% endif %}
 
 <!-- Fonts & Icons -->
+{% if page.lang == 'zh-CN' %}
+  <link rel="stylesheet" href="{{ '/assets/css/chinese-fonts.css' | relative_url | bust_file_cache }}">
+{% endif %}
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
 <link
@@ -68,6 +71,18 @@
 {% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+{% if page.language_alternate %}
+  {% if page.lang == 'zh-CN' %}
+    <link rel="alternate" hreflang="zh-CN" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" hreflang="en" href="{{ page.language_alternate | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">
+  {% else %}
+    <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" hreflang="zh-CN" href="{{ page.language_alternate | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ page.language_alternate | absolute_url }}">
+  {% endif %}
+{% endif %}
 
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>

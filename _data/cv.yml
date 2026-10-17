@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Zezhi Shao
-    - name: Date of Birth
-      value: 4th October 1996
     - name: Languages
       value: Chinese, English
 
@@ -16,34 +14,39 @@
       year: 2024
       description:
         - Focus on technology innovation of Spatial-Temporal Data Mining.
-        - Supervised by Prof. Yongjun Xu.
+        - Supervised by Yongjun Xu.
     - title: BE
       institution: Shandong University, Jinan, Shandong, China
       year: 2019
       description:
-        - Communicaton Engineering
-        - Supervised by Prof. Pengwei Wang.
+        - Communication Engineering
+        - Supervised by Pengwei Wang.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Assitant Professor
+    - title: Assistant Professor
       institution: Institute of Computing Technology, Chinese Academy of Sciences
       year: 2024-now
       description:
-        - Focus on thoery, technology and application innovation of Spatial-Temporal Data Mining.
+        - Research on the theory, methods, and applications of spatio-temporal data mining.
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2026
-      items: ACM SIGSPATIAL CHN 空间数据智能“新星学者“
+      items:
+        - World’s Top 2% Scientists (Stanford University / Elsevier)
+        - ACM SIGSPATIAL CHN 空间数据智能“新星学者”
     - year: 2025
-      items: 指挥与控制学会 科技进步一等奖
+      items:
+        - 指挥与控制学会 科技进步一等奖
     - year: 2025
-      items:  中国科学院优博 (Outstanding Doctoral Dissertation of the CAS)
+      items:
+        - 中国科学院优博 (Outstanding Doctoral Dissertation of the CAS)
     - year: 2024
-      items:  中国科学院院长奖 (Excellence Award from the President of the CAS)
+      items:
+        - 中国科学院院长奖 (Excellence Award from the President of the CAS)
     - year: 2023
       items:
         - 中科院计算所 所长特别奖（夏培肃奖） (Director's Special Award of the ICT, CAS) (Top 2 / All PhD Graduates)
@@ -66,14 +69,15 @@
       items:
         - ST AI for Urban Science.
         - ST AI for Atmospheric Science.
-        - ST AI for Ocean Science, Marine Science.    
+        - ST AI for Ocean Science, Marine Science.
 
 - title: Open Source Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/GestaltCogTeam/BasicTS">BasicTS</a>
       year: 2022-now
-      description: A Fair and Scalable Time Series Forecasting Benchmark and Toolkit.
+      description:
+        - A Fair and Scalable Time Series Forecasting Benchmark and Toolkit.
 
 - title: Other Interests
   type: list

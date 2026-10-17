@@ -1,6 +1,8 @@
 ---
 layout: post
 date: 2025-11-17 12:00:00-0000
+zh: >-
+  [APT](https://www.arxiv.org/abs/2511.12945) 被 **AAAI** 接收。
 inline: true
 related_posts: false
 ---

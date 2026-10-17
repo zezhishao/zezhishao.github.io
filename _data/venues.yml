@@ -6,16 +6,19 @@
   url: https://journals.aps.org/
 
 "KDD":
- color: "#a624a7"
+  color: "#a624a7"
 
 "VLDB":
- color: "#4c96b7"
+  color: "#4c96b7"
+
+"EMNLP":
+  color: "#4c96b7"
 
 "AAAI":
- color: "#4e4141"
+  color: "#4e4141"
 
 "CIKM":
- color: "#009f36"
+  color: "#009f36"
 
 "Innovation":
   color: "#359469"
