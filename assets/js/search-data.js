@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "About",
+    id: "nav-关于",
+    title: "关于",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-github-repositories",
           title: "GitHub repositories",
-          description: "",
+          description: "Open-source projects for time series analysis and spatio-temporal data mining.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -97,7 +97,13 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_20260501/";
-            },},{id: "projects-project-1",
+            },},{id: "news-ai-for-science-has-been-accepted-by-the-innovation-and-madi-has-been-accepted-to-emnlp-2026",
+          title: 'AI for Science has been accepted by The Innovation, and MADI has been...',
+          description: "",
+          section: "News",},{id: "news-quals-has-been-accepted-to-vldb-2027",
+          title: 'QUALS has been accepted to VLDB 2027.',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
