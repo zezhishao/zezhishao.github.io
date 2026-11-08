@@ -1,221 +1,217 @@
 metadata:
-  last_updated: '2026-10-25 07:17:55'
+  last_updated: '2026-11-08 08:38:04'
 papers:
   spatio-temporal-graph-neural-networks-for-predictive-learning-in-urban-computing-a-survey:
     title: 'Spatio-temporal graph neural networks for predictive learning in urban
       computing: A survey'
     year: '2023'
-    citations: 933
-    scholar_id: ValoOgxQCu0C
+    citations: 956
+    scholar_id: bpzGracWULUC
   spatial-temporal-identity-a-simple-yet-effective-baseline-for-multivariate-time-series-forecasting:
     title: 'Spatial-temporal identity: A simple yet effective baseline for multivariate
       time series forecasting'
     year: '2022'
-    citations: 729
-    scholar_id: vDAiXjHqGuUC
+    citations: 754
+    scholar_id: CszKaTWoJ4oC
   decoupled-dynamic-spatial-temporal-graph-neural-network-for-traffic-forecasting:
     title: Decoupled dynamic spatial-temporal graph neural network for traffic forecasting
     year: '2022'
-    citations: 642
-    scholar_id: 9BrBD10KdIMC
+    citations: 656
+    scholar_id: XiudQ1xu_X4C
   pre-training-enhanced-spatial-temporal-graph-neural-network-for-multivariate-time-series-forecasting:
     title: Pre-training enhanced spatial-temporal graph neural network for multivariate
       time series forecasting
     year: '2022'
-    citations: 555
-    scholar_id: WgWwrh0-4AcC
+    citations: 562
+    scholar_id: ik7taQMJn20C
   artificial-intelligence-for-geoscience-progress-challenges-and-perspectives:
     title: 'Artificial intelligence for geoscience: Progress, challenges, and perspectives'
     year: '2024'
-    citations: 550
-    scholar_id: W6lDjji-Y3sC
+    citations: 557
+    scholar_id: unvvabd0N_sC
   exploring-progress-in-multivariate-time-series-forecasting-comprehensive-benchmarking-and-heterogeneity-analysis:
     title: 'Exploring progress in multivariate time series forecasting: Comprehensive
       benchmarking and heterogeneity analysis'
     year: '2024'
-    citations: 413
-    scholar_id: wYSbTkB9UeAC
+    citations: 421
+    scholar_id: dJueR9Ocv0UC
   dsformer-a-double-sampling-transformer-for-multivariate-time-series-long-term-prediction:
     title: 'Dsformer: A double sampling transformer for multivariate time series long-term
       prediction'
     year: '2023'
-    citations: 217
-    scholar_id: s-fFodaFcTIC
+    citations: 218
+    scholar_id: cl8RKLMXmjEC
   foundation-models-and-intelligent-decision-making-progress-challenges-and-perspectives:
     title: 'Foundation models and intelligent decision-making: Progress, challenges,
       and perspectives'
     year: '2025'
-    citations: 162
-    scholar_id: ylRwQpuyVnAC
+    citations: 166
+    scholar_id: VeGg__JoRD8C
   mgsfformer-a-multi-granularity-spatiotemporal-fusion-transformer-for-air-quality-prediction:
     title: 'Mgsfformer: A multi-granularity spatiotemporal fusion transformer for
       air quality prediction'
     year: '2025'
-    citations: 153
-    scholar_id: xV0sImiv5aMC
+    citations: 159
+    scholar_id: 54VQHa9UZwQC
   efficient-large-scale-traffic-forecasting-with-transformers-a-spatial-data-management-perspective:
     title: 'Efficient large-scale traffic forecasting with transformers: A spatial
       data management perspective'
     year: '2025'
-    citations: 129
-    scholar_id: MivfCDya6-cC
+    citations: 132
+    scholar_id: Ov8rX5H-XoQC
   ginar-a-robust-end-to-end-framework-for-multivariate-time-series-forecasting-with-missing-values:
     title: 'Ginar+: A robust end-to-end framework for multivariate time series forecasting
       with missing values'
     year: '2025'
-    citations: 110
-    scholar_id: Ezt8cFLZ8eoC
+    citations: 116
+    scholar_id: rj5514_dFYMC
   ginar-an-end-to-end-multivariate-time-series-forecasting-model-suitable-for-variable-missing:
     title: 'Ginar: An end-to-end multivariate time series forecasting model suitable
       for variable missing'
     year: '2024'
-    citations: 86
-    scholar_id: XKD4hAGUp1wC
+    citations: 91
+    scholar_id: nmwxwYHH7YMC
   dynamic-frequency-domain-graph-convolutional-network-for-traffic-forecasting:
     title: Dynamic frequency domain graph convolutional network for traffic forecasting
     year: '2024'
     citations: 64
-    scholar_id: 7q7mz_VC1OIC
+    scholar_id: WN7eEiAxqlEC
   heterogeneous-graph-neural-network-with-multi-view-representation-learning:
     title: Heterogeneous graph neural network with multi-view representation learning
     year: '2022'
-    citations: 60
-    scholar_id: aGf9zYFaS9MC
+    citations: 62
+    scholar_id: kFTnOY8ORlkC
   hutformer-hierarchical-u-net-transformer-for-long-term-traffic-forecasting:
     title: 'Hutformer: Hierarchical u-net transformer for long-term traffic forecasting'
     year: '2025'
     citations: 52
-    scholar_id: FhAcYObmztMC
+    scholar_id: HvWuJDVxf68C
   basicts-an-open-source-fair-multivariate-time-series-prediction-benchmark:
     title: 'Basicts: An open source fair multivariate time series prediction benchmark'
     year: '2022'
     citations: 50
-    scholar_id: HrvnDIceeq0C
+    scholar_id: V2qoOCwHYDEC
   merlin-multi-view-representation-learning-for-robust-multivariate-time-series-forecasting-with-unfixed-missing-rates:
     title: 'Merlin: Multi-view representation learning for robust multivariate time
       series forecasting with unfixed missing rates'
     year: '2025'
-    citations: 41
-    scholar_id: qyG9-fBpYwcC
+    citations: 43
+    scholar_id: zfpW0o09P_QC
   blast-balanced-sampling-time-series-corpus-for-universal-forecasting-models:
     title: 'Blast: Balanced sampling time series corpus for universal forecasting
       models'
     year: '2025'
-    citations: 29
-    scholar_id: tHbJvz72MBoC
+    citations: 30
+    scholar_id: 2-lh8vUrSjUC
   trajectory-user-linking-via-multi-scale-graph-attention-network:
     title: Trajectory-user linking via multi-scale graph attention network
     year: '2025'
-    citations: 24
-    scholar_id: tE63oHuI4N0C
+    citations: 25
+    scholar_id: hrMvOtgsx9kC
   trajectory-user-link-with-attention-recurrent-networks:
     title: Trajectory-user link with attention recurrent networks
     year: '2021'
     citations: 24
-    scholar_id: 5iaBvPSj0W8C
+    scholar_id: 3CUWSGqK-JQC
+  selective-learning-for-deep-time-series-forecasting:
+    title: Selective learning for deep time series forecasting
+    year: '2026'
+    citations: 21
+    scholar_id: vVhCxeg22YYC
   spatial-temporal-large-models-a-super-hub-linking-multiple-scientific-areas-with-artificial-intelligence:
     title: 'Spatial-temporal large models: A super hub linking multiple scientific
       areas with artificial intelligence'
     year: '2025'
-    citations: 17
-    scholar_id: hKvaewulmscC
+    citations: 18
+    scholar_id: b2h4l_sU8yIC
   multi-featured-spatial-temporal-and-dynamic-multi-graph-convolutional-network-for-metro-passenger-flow-prediction:
     title: Multi-featured spatial-temporal and dynamic multi-graph convolutional network
       for metro passenger flow prediction
     year: '2022'
     citations: 17
-    scholar_id: 08LKyc9QYe8C
-  selective-learning-for-deep-time-series-forecasting:
-    title: Selective learning for deep time series forecasting
-    year: '2026'
-    citations: 16
-    scholar_id: 7nritDDbanUC
+    scholar_id: 9tlpF3L1tz4C
   clustering-property-matters-a-cluster-aware-network-for-large-scale-multivariate-time-series-forecasting:
     title: 'Clustering-property matters: A cluster-aware network for large scale multivariate
       time series forecasting'
     year: '2023'
     citations: 13
-    scholar_id: kz5qe9k8UOQC
-  sta-gann-a-valid-and-generalizable-spatio-temporal-kriging-approach:
-    title: 'Sta-gann: A valid and generalizable spatio-temporal kriging approach'
-    year: '2025'
-    citations: 10
-    scholar_id: eOtEkkrHjOQC
+    scholar_id: X4dKhjJlji0C
   on-the-integration-of-spatial-temporal-knowledge-a-lightweight-approach-to-atmospheric-time-series-forecasting:
     title: 'On the integration of spatial-temporal knowledge: A lightweight approach
       to atmospheric time series forecasting'
     year: '2026'
-    citations: 9
-    scholar_id: Og6TBqsPWQcC
+    citations: 11
+    scholar_id: c17qrYUYSU4C
   apt-affine-prototype-timestamp-for-time-series-forecasting-under-distribution-shift:
     title: 'APT: Affine prototype-timestamp for time series forecasting under distribution
       shift'
     year: '2026'
+    citations: 10
+    scholar_id: EBtiBlVVR50C
+  sta-gann-a-valid-and-generalizable-spatio-temporal-kriging-approach:
+    title: 'Sta-gann: A valid and generalizable spatio-temporal kriging approach'
+    year: '2025'
+    citations: 10
+    scholar_id: cF7oVAG_41EC
+  ai-for-science-progress-challenges-and-perspectives:
+    title: 'AI for science: Progress, challenges, and perspectives'
+    year: '2026'
     citations: 8
-    scholar_id: OfS8n6y7Q1sC
+    scholar_id: kUFShvmAKbYC
   aries-relation-assessment-and-model-recommendation-for-deep-time-series-forecasting:
     title: 'Aries: Relation assessment and model recommendation for deep time series
       forecasting'
     year: '2025'
-    citations: 7
-    scholar_id: QPguKx3vP4sC
-  ai-for-science-progress-challenges-and-perspectives:
-    title: 'AI for science: Progress, challenges, and perspectives'
-    year: '2026'
-    citations: 6
-    scholar_id: KiiG_FXkR9MC
+    citations: 8
+    scholar_id: FOwCf_TXbHsC
   lightweather-harnessing-absolute-positional-encoding-to-efficient-and-scalable-global-weather-forecasting:
     title: 'LightWeather: Harnessing Absolute Positional Encoding to Efficient and
       Scalable Global Weather Forecasting'
     year: '2024'
     citations: 5
-    scholar_id: qiEfLtjX8cYC
+    scholar_id: OOjdtAxccZ4C
   zeus-towards-tuning-free-foundation-model-for-time-series-analysis:
     title: 'Zeus: Towards Tuning-Free Foundation Model for Time Series Analysis'
     year: '2026'
     citations: 3
-    scholar_id: ELYezEfmEYEC
+    scholar_id: Y2PVIMc7JHAC
   dropoutts-sample-adaptive-dropout-for-robust-time-series-forecasting:
     title: 'DropoutTS: Sample-Adaptive Dropout for Robust Time Series Forecasting'
     year: '2026'
     citations: 3
-    scholar_id: RPh6sY6S0Z0C
+    scholar_id: kOwnFXKvkKYC
   heterogeneity-in-multivariate-time-series-comprehensive-analysis-and-adaptive-modeling:
     title: 'Heterogeneity in Multivariate Time Series: Comprehensive Analysis and
       Adaptive Modeling'
     year: '2025'
     citations: 3
-    scholar_id: WCWDm03BpewC
+    scholar_id: ht8yWoai4SsC
   pulse-generative-phase-evolution-for-non-stationary-time-series-forecasting:
     title: 'PULSE: Generative Phase Evolution for Non-Stationary Time Series Forecasting'
     year: '2026'
     citations: 2
-    scholar_id: iOUJLkeIIkEC
+    scholar_id: ZIdC2dHBkmAC
+  ? from-consistency-to-complementarity-aligned-and-disentangled-multi-modal-learning-for-time-series-understanding-and-reasoning
+  : title: 'From Consistency to Complementarity: Aligned and Disentangled Multi-modal
+      Learning for Time Series Understanding and Reasoning'
+    year: '2026'
+    citations: 2
+    scholar_id: fmn2VdbNMoQC
+  quals-corpus-equilibrium-for-universal-forecasting-via-pattern-quantization-and-learnability-synchronization:
+    title: 'QUALS: Corpus Equilibrium for Universal Forecasting via Pattern Quantization
+      and Learnability Synchronization'
+    year: '2026'
+    citations: 1
+    scholar_id: pSDPu2lMr6QC
   smartraj-a-stable-multi-city-adaptive-method-for-multi-view-spatio-temporal-trajectory-representation-learning:
     title: 'SMARTraj: A Stable Multi-City Adaptive Method for Multi-View Spatio-Temporal
       Trajectory Representation Learning'
     year: '2026'
     citations: 1
-    scholar_id: -By0BrS97s8C
-  ? from-consistency-to-complementarity-aligned-and-disentangled-multi-modal-learning-for-time-series-understanding-and-reasoning
-  : title: 'From Consistency to Complementarity: Aligned and Disentangled Multi-modal
-      Learning for Time Series Understanding and Reasoning'
-    year: '2026'
-    citations: 1
-    scholar_id: 18X6PRg5UAMC
-  quals-corpus-equilibrium-for-universal-forecasting-via-pattern-quantization-and-learnability-synchronization:
-    title: 'QUALS: Corpus Equilibrium for Universal Forecasting via Pattern Quantization
-      and Learnability Synchronization'
+    scholar_id: lWZ-Rgc0HLgC
+  hierantp-structured-risk-representations-for-time-series-anomaly-detection-via-hierarchical-next-token-prediction:
+    title: 'HieraNTP: Structured Risk Representations for Time-Series Anomaly Detection
+      via Hierarchical Next-Token Prediction'
     year: '2026'
     citations: 0
-    scholar_id: x3SmE8DiQe0C
-  basicts-an-open-source-fair:
-    title: 'BasicTS: An Open Source Fair'
-    year: '2023'
-    citations: 0
-    scholar_id: IOTSjrdTKDMC
-  communications-in-transportation-research:
-    title: Communications in Transportation Research
-    year: Unknown Year
-    citations: 0
-    scholar_id: LvJf3kr40KwC
+    scholar_id: 6iKmjGw6OAgC
