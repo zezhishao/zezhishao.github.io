@@ -1,39 +1,39 @@
 metadata:
-  last_updated: '2026-11-08 08:38:04'
+  last_updated: '2026-11-10 09:18:51'
 papers:
   spatio-temporal-graph-neural-networks-for-predictive-learning-in-urban-computing-a-survey:
     title: 'Spatio-temporal graph neural networks for predictive learning in urban
       computing: A survey'
     year: '2023'
-    citations: 956
+    citations: 957
     scholar_id: bpzGracWULUC
   spatial-temporal-identity-a-simple-yet-effective-baseline-for-multivariate-time-series-forecasting:
     title: 'Spatial-temporal identity: A simple yet effective baseline for multivariate
       time series forecasting'
     year: '2022'
-    citations: 754
+    citations: 757
     scholar_id: CszKaTWoJ4oC
   decoupled-dynamic-spatial-temporal-graph-neural-network-for-traffic-forecasting:
     title: Decoupled dynamic spatial-temporal graph neural network for traffic forecasting
     year: '2022'
-    citations: 656
+    citations: 658
     scholar_id: XiudQ1xu_X4C
   pre-training-enhanced-spatial-temporal-graph-neural-network-for-multivariate-time-series-forecasting:
     title: Pre-training enhanced spatial-temporal graph neural network for multivariate
       time series forecasting
     year: '2022'
-    citations: 562
+    citations: 563
     scholar_id: ik7taQMJn20C
   artificial-intelligence-for-geoscience-progress-challenges-and-perspectives:
     title: 'Artificial intelligence for geoscience: Progress, challenges, and perspectives'
     year: '2024'
-    citations: 557
+    citations: 558
     scholar_id: unvvabd0N_sC
   exploring-progress-in-multivariate-time-series-forecasting-comprehensive-benchmarking-and-heterogeneity-analysis:
     title: 'Exploring progress in multivariate time series forecasting: Comprehensive
       benchmarking and heterogeneity analysis'
     year: '2024'
-    citations: 421
+    citations: 423
     scholar_id: dJueR9Ocv0UC
   dsformer-a-double-sampling-transformer-for-multivariate-time-series-long-term-prediction:
     title: 'Dsformer: A double sampling transformer for multivariate time series long-term
@@ -45,7 +45,7 @@ papers:
     title: 'Foundation models and intelligent decision-making: Progress, challenges,
       and perspectives'
     year: '2025'
-    citations: 166
+    citations: 167
     scholar_id: VeGg__JoRD8C
   mgsfformer-a-multi-granularity-spatiotemporal-fusion-transformer-for-air-quality-prediction:
     title: 'Mgsfformer: A multi-granularity spatiotemporal fusion transformer for
@@ -57,7 +57,7 @@ papers:
     title: 'Efficient large-scale traffic forecasting with transformers: A spatial
       data management perspective'
     year: '2025'
-    citations: 132
+    citations: 133
     scholar_id: Ov8rX5H-XoQC
   ginar-a-robust-end-to-end-framework-for-multivariate-time-series-forecasting-with-missing-values:
     title: 'Ginar+: A robust end-to-end framework for multivariate time series forecasting
@@ -69,7 +69,7 @@ papers:
     title: 'Ginar: An end-to-end multivariate time series forecasting model suitable
       for variable missing'
     year: '2024'
-    citations: 91
+    citations: 92
     scholar_id: nmwxwYHH7YMC
   dynamic-frequency-domain-graph-convolutional-network-for-traffic-forecasting:
     title: Dynamic frequency domain graph convolutional network for traffic forecasting
@@ -95,7 +95,7 @@ papers:
     title: 'Merlin: Multi-view representation learning for robust multivariate time
       series forecasting with unfixed missing rates'
     year: '2025'
-    citations: 43
+    citations: 44
     scholar_id: zfpW0o09P_QC
   blast-balanced-sampling-time-series-corpus-for-universal-forecasting-models:
     title: 'Blast: Balanced sampling time series corpus for universal forecasting
@@ -140,7 +140,7 @@ papers:
     title: 'On the integration of spatial-temporal knowledge: A lightweight approach
       to atmospheric time series forecasting'
     year: '2026'
-    citations: 11
+    citations: 12
     scholar_id: c17qrYUYSU4C
   apt-affine-prototype-timestamp-for-time-series-forecasting-under-distribution-shift:
     title: 'APT: Affine prototype-timestamp for time series forecasting under distribution
@@ -156,7 +156,7 @@ papers:
   ai-for-science-progress-challenges-and-perspectives:
     title: 'AI for science: Progress, challenges, and perspectives'
     year: '2026'
-    citations: 8
+    citations: 9
     scholar_id: kUFShvmAKbYC
   aries-relation-assessment-and-model-recommendation-for-deep-time-series-forecasting:
     title: 'Aries: Relation assessment and model recommendation for deep time series
